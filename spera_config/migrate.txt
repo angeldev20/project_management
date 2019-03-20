@@ -1,0 +1,9 @@
+vendor\bin\phinxwindows.bat migrate -c phinx.yml -e development
+vendor\bin\phinxwindows.bat migrate -c seeddb-phinx.yml -e development
+vendor\bin\phinxwindows.bat migrate -c seeddb-phinx.yml -e daniel
+
+vendor\bin\phinxwindows.bat create TestTable
+
+vendor\bin\phinxwindows.bat create TestSeedTable -c seeddb-phinx.yml
+
+vendor\bin\phinxwindows.bat migrate -c accountmigrate.yml -e 

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUE,4CAAkC,CAChC,KAAK,CAAE,IAAI,CACX,KAAK,CAAE,IAAI,CACX,8CAAE,CACA,UAAU,CAAE,IAAI,CAIpB,gCAAsB,CACpB,OAAO,CAAE,IAAI",
+"sources": ["twenty-sixteen.scss"],
+"names": [],
+"file": "twenty-sixteen.css"
+}

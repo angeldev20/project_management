@@ -1,0 +1,3 @@
+[submodule "application/libraries/codeigniter-library-google-spreadsheet"]
+	path = application/libraries/codeigniter-library-google-spreadsheet
+	url = https://github.com/changyy/codeigniter-library-google-spreadsheet.git

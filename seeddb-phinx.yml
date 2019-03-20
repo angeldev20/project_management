@@ -1,0 +1,53 @@
+paths:
+    migrations: %%PHINX_CONFIG_DIR%%/db/migrations/seeddb
+    seeds: %%PHINX_CONFIG_DIR%%/db/seeddb/seeds
+
+environments:
+    default_migration_table: phinxlog
+    default_database: development
+    production:
+        adapter: mysql
+        host: spera-rds.cxosevda4sym.us-west-2.rds.amazonaws.com
+        name: seed_production
+        user: platform
+        pass: 'J(NsVHrVj[!_,8+`85t&'
+        port: 3306
+        charset: utf8
+
+    development:
+        adapter: mysql
+        host: 127.0.0.1
+        name: seed_development
+        user: platform_development
+        pass: '4ZSyw@tx/7dw+vW['
+        port: 3306
+        charset: utf8
+
+    release:
+            adapter: mysql 
+            host: 127.0.0.1
+            name: seed_release
+            user: platform_release
+            pass: '4ZSyw@tx/7dw+vW['
+            port: 3306
+            charset: utf8
+
+    testing:
+        adapter: mysql
+        host: 127.0.0.1
+        name: seed_testing
+        user: platform_testing
+        pass: '4ZSyw@tx/7dw+vW['
+        port: 3306
+        charset: utf8
+
+    daniel:
+        adapter: mysql
+        host: 127.0.0.1
+        name: daniel_development
+        user: platform_development
+        pass: '4ZSyw@tx/7dw+vW['
+        port: 3306
+        charset: utf8
+
+version_order: creation

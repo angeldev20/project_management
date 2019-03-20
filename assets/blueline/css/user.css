@@ -1,0 +1,19 @@
+.checkbox-padding {
+    position: relative;
+    top: 5px;
+    margin-bottom: 11px !important;
+    margin-right: 5px !important;
+}
+
+.mini-slack-team-ic{
+    width:30px;
+    height:30px;
+    border-radius: 6px;
+    margin-top: -3px;
+}
+
+input[type=checkbox]+.checkbox-lbl,
+input[type=radio]+.checkbox-lbl {
+    font-weight: 400;
+    color: #5E5E5E;
+}

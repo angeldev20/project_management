@@ -1,0 +1,130 @@
+/* 
+To merge into hkb-style-admin
+*/
+.hkb-admin-settings-page {
+	margin: 20px 0 0;
+
+	*,
+	*:before,
+	*:after {
+	    -webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+	}
+
+	/* Clearfix */
+	%hkb-clearfix {
+		*zoom:1;
+		&:before,
+		&:after {
+			content: "";
+		    display: table;
+		}
+	  	&:after {	    
+		    clear: both;
+		}
+	}
+
+	h1 {
+		font-weight: 400;
+		margin: 0 0 20px;
+		font-size: 23px;
+		line-height: 29px;
+	}
+
+	#hkb-settings-tabs {
+		ul {
+			@extend %hkb-clearfix;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			border-bottom: 1px solid #ccc;
+			li {
+				float: left;
+				margin: 0 0 -1px 0;
+    			padding: 0;
+				a {
+					display: block;
+    				background: #e5e5e5;
+					border: 1px solid #ccc;
+					line-height: 24px;
+					padding: 5px 10px;
+					margin: 0 0 0 7px;
+    				font-size: 14px;
+    				font-weight: 600;
+    				color: #555;
+    				white-space: nowrap;
+    				text-decoration: none;
+    				outline: 0;
+    				&:hover,
+    				&:focus {
+    					background-color: #fff;
+    					color: #444;
+    					box-shadow: none;
+    				}
+    				&.active {
+						border-bottom: 1px solid #f1f1f1;
+					    background: #f1f1f1;
+					    color: #000;
+					}
+				}				
+			}
+		}
+	}
+	.hkb-settings-section {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+
+	input[type="text"] {
+		width: 250px;
+	}
+	select {
+		width: 250px;
+	}
+	textarea {
+		width: 300px;
+		min-height: 100px;
+	}
+	.hkb_setting_desc {
+		display: block;
+	    color: #666;
+		font-size: 14px;
+		font-style: italic;
+		margin: 4px 0 0;
+		&.hkb_setting_desc--inline {
+			display: inline-block;
+		}
+	}
+
+	// License validation
+	.hkb-license-status {
+		display: inline-block;
+		margin: 20px 0 0 210px;
+	    background: rgba(0,0,0,0.05);
+	    padding: 10px;
+	    border-radius: 5px;
+		&:before {
+			content: "";
+			display: inline-block;
+			border-radius: 99px;
+			height: 15px;
+			width: 15px;			
+			margin: 0 5px 0 0;
+			top: 2px;
+    		position: relative;
+		}
+		&.hkb-license-status--valid {
+			&:before {
+				background: #4bc681;
+			}
+		}
+		&.hkb-license-status--invalid {
+			&:before {
+				background: #ff3f52;
+			}
+		}
+	}
+}

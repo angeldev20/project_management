@@ -1,0 +1,8 @@
+#!/bin/bash
+eval "$(cat ~/.bashrc | tail -n +10)"
+cd /var/www/deploy
+vendor/bin/phinx migrate -e release
+vendor/bin/phinx migrate -c seeddb-phinx.yml -e release
+npm install
+npm run pack&
+gulp

@@ -1,0 +1,1398 @@
+-- MySQL dump 10.16  Distrib 10.1.25-MariaDB, for debian-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: seed_development
+-- ------------------------------------------------------
+-- Server version	10.1.25-MariaDB-
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `article_has_attachments`
+--
+
+DROP TABLE IF EXISTS `article_has_attachments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_has_attachments` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) DEFAULT '0',
+  `filename` varchar(250) DEFAULT '0',
+  `savename` varchar(250) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `article_has_attachments`
+--
+
+LOCK TABLES `article_has_attachments` WRITE;
+/*!40000 ALTER TABLE `article_has_attachments` DISABLE KEYS */;
+/*!40000 ALTER TABLE `article_has_attachments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `clients`
+--
+
+DROP TABLE IF EXISTS `clients`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company_id` int(140) DEFAULT NULL,
+  `firstname` varchar(100) DEFAULT NULL,
+  `lastname` varchar(100) DEFAULT NULL,
+  `email` varchar(180) DEFAULT NULL,
+  `phone` varchar(25) DEFAULT NULL,
+  `mobile` varchar(25) DEFAULT NULL,
+  `address` varchar(150) DEFAULT NULL,
+  `zipcode` varchar(30) NOT NULL,
+  `userpic` varchar(150) NOT NULL DEFAULT 'no-pic.png',
+  `city` varchar(45) DEFAULT NULL,
+  `hashed_password` varchar(255) DEFAULT NULL,
+  `inactive` tinyint(4) DEFAULT '0',
+  `access` varchar(150) DEFAULT '0',
+  `last_active` varchar(50) DEFAULT NULL,
+  `last_login` varchar(50) DEFAULT NULL,
+  `twitter` varchar(255) NOT NULL DEFAULT '',
+  `skype` varchar(255) NOT NULL DEFAULT '',
+  `linkedin` varchar(255) NOT NULL DEFAULT '',
+  `facebook` varchar(255) NOT NULL DEFAULT '',
+  `instagram` varchar(255) NOT NULL DEFAULT '',
+  `googleplus` varchar(255) NOT NULL DEFAULT '',
+  `youtube` varchar(255) NOT NULL DEFAULT '',
+  `pinterest` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `clients`
+--
+
+LOCK TABLES `clients` WRITE;
+/*!40000 ALTER TABLE `clients` DISABLE KEYS */;
+/*!40000 ALTER TABLE `clients` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `companies`
+--
+
+DROP TABLE IF EXISTS `companies`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `companies` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `reference` int(11) NOT NULL,
+  `name` varchar(140) DEFAULT NULL,
+  `client_id` varchar(140) DEFAULT NULL,
+  `phone` varchar(25) DEFAULT NULL,
+  `mobile` varchar(25) DEFAULT NULL,
+  `address` varchar(150) DEFAULT NULL,
+  `zipcode` varchar(30) NOT NULL,
+  `city` varchar(45) DEFAULT NULL,
+  `inactive` tinyint(4) DEFAULT '0',
+  `website` varchar(250) DEFAULT NULL,
+  `country` varchar(250) DEFAULT NULL,
+  `vat` varchar(250) DEFAULT NULL,
+  `note` longtext,
+  `province` varchar(255) DEFAULT NULL,
+  `twitter` varchar(255) NOT NULL DEFAULT '',
+  `skype` varchar(255) NOT NULL DEFAULT '',
+  `linkedin` varchar(255) NOT NULL DEFAULT '',
+  `facebook` varchar(255) NOT NULL DEFAULT '',
+  `instagram` varchar(255) NOT NULL DEFAULT '',
+  `googleplus` varchar(255) NOT NULL DEFAULT '',
+  `youtube` varchar(255) NOT NULL DEFAULT '',
+  `pinterest` varchar(255) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `companies`
+--
+
+LOCK TABLES `companies` WRITE;
+/*!40000 ALTER TABLE `companies` DISABLE KEYS */;
+/*!40000 ALTER TABLE `companies` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `company_has_admins`
+--
+
+DROP TABLE IF EXISTS `company_has_admins`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `company_has_admins` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `company_id` int(10) DEFAULT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  `access` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `company_has_admins`
+--
+
+LOCK TABLES `company_has_admins` WRITE;
+/*!40000 ALTER TABLE `company_has_admins` DISABLE KEYS */;
+/*!40000 ALTER TABLE `company_has_admins` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `core`
+--
+
+DROP TABLE IF EXISTS `core`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `core` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `version` char(10) NOT NULL DEFAULT '0',
+  `domain` varchar(65) DEFAULT NULL,
+  `email` varchar(80) DEFAULT NULL,
+  `company` varchar(100) DEFAULT NULL,
+  `tax` varchar(5) DEFAULT NULL,
+  `currency` varchar(20) DEFAULT NULL,
+  `autobackup` int(11) DEFAULT NULL,
+  `cronjob` int(11) DEFAULT NULL,
+  `last_cronjob` int(11) DEFAULT NULL,
+  `last_autobackup` int(11) DEFAULT NULL,
+  `invoice_terms` mediumtext,
+  `company_reference` int(6) DEFAULT NULL,
+  `project_reference` int(6) DEFAULT NULL,
+  `invoice_reference` int(6) DEFAULT NULL,
+  `subscription_reference` int(6) DEFAULT NULL,
+  `ticket_reference` int(10) DEFAULT NULL,
+  `date_format` varchar(20) DEFAULT NULL,
+  `date_time_format` varchar(20) DEFAULT NULL,
+  `invoice_mail_subject` varchar(150) DEFAULT NULL,
+  `pw_reset_mail_subject` varchar(150) DEFAULT NULL,
+  `pw_reset_link_mail_subject` varchar(150) DEFAULT NULL,
+  `credentials_mail_subject` varchar(150) DEFAULT NULL,
+  `notification_mail_subject` varchar(150) DEFAULT NULL,
+  `language` varchar(150) DEFAULT NULL,
+  `invoice_address` varchar(200) DEFAULT NULL,
+  `invoice_city` varchar(200) DEFAULT NULL,
+  `invoice_contact` varchar(200) DEFAULT NULL,
+  `invoice_tel` varchar(50) DEFAULT NULL,
+  `subscription_mail_subject` varchar(250) DEFAULT NULL,
+  `logo` varchar(150) DEFAULT NULL,
+  `template` varchar(200) DEFAULT 'blueline',
+  `paypal` varchar(5) DEFAULT '1',
+  `paypal_currency` varchar(200) DEFAULT 'EUR',
+  `paypal_account` varchar(200) DEFAULT '',
+  `invoice_logo` varchar(150) DEFAULT 'assets/blueline/img/invoice_logo.png',
+  `favicon` varchar(150) DEFAULT 'assets/blueline/img/favicon.ico',
+  `pc` varchar(150) DEFAULT NULL,
+  `vat` varchar(150) DEFAULT NULL,
+  `ticket_email` varchar(250) DEFAULT NULL,
+  `ticket_default_owner` int(10) DEFAULT '1',
+  `ticket_default_queue` int(10) DEFAULT '1',
+  `ticket_default_type` int(10) DEFAULT '1',
+  `ticket_default_status` varchar(200) DEFAULT 'new',
+  `ticket_config_host` varchar(250) DEFAULT NULL,
+  `ticket_config_login` varchar(250) DEFAULT NULL,
+  `ticket_config_pass` varchar(250) DEFAULT NULL,
+  `ticket_config_port` varchar(250) DEFAULT NULL,
+  `ticket_config_ssl` varchar(250) DEFAULT NULL,
+  `ticket_config_email` varchar(250) DEFAULT NULL,
+  `ticket_config_flags` varchar(250) DEFAULT '/notls',
+  `ticket_config_search` varchar(250) DEFAULT 'UNSEEN',
+  `ticket_config_timestamp` int(11) DEFAULT '0',
+  `ticket_config_mailbox` varchar(250) DEFAULT NULL,
+  `ticket_config_delete` int(11) DEFAULT '0',
+  `ticket_config_active` int(11) DEFAULT '0',
+  `ticket_config_imap` int(11) DEFAULT '1',
+  `stripe` int(11) DEFAULT '0',
+  `stripe_key` varchar(250) DEFAULT NULL,
+  `stripe_p_key` varchar(255) DEFAULT '',
+  `stripe_currency` varchar(255) DEFAULT 'USD',
+  `bank_transfer` int(11) DEFAULT '0',
+  `bank_transfer_text` longtext,
+  `estimate_terms` longtext,
+  `estimate_prefix` varchar(250) DEFAULT 'EST',
+  `estimate_pdf_template` varchar(250) DEFAULT 'templates/estimate/blueline',
+  `invoice_pdf_template` varchar(250) DEFAULT 'templates/invoice/blueline',
+  `second_tax` varchar(5) DEFAULT '',
+  `estimate_mail_subject` varchar(255) DEFAULT 'New Estimate #{estimate_id}',
+  `money_format` int(20) unsigned NOT NULL DEFAULT '1',
+  `money_currency_position` int(20) unsigned NOT NULL DEFAULT '1',
+  `pdf_font` varchar(255) DEFAULT 'NotoSans',
+  `pdf_path` int(10) unsigned NOT NULL DEFAULT '1',
+  `registration` int(10) unsigned NOT NULL DEFAULT '0',
+  `authorize_api_login_id` varchar(255) DEFAULT NULL,
+  `authorize_api_transaction_key` varchar(255) DEFAULT NULL,
+  `authorize_net` int(20) DEFAULT NULL,
+  `authorize_currency` varchar(30) DEFAULT NULL,
+  `invoice_prefix` varchar(255) NOT NULL DEFAULT '',
+  `company_prefix` varchar(255) NOT NULL DEFAULT '',
+  `quotation_prefix` varchar(255) NOT NULL DEFAULT '',
+  `project_prefix` varchar(255) NOT NULL DEFAULT '',
+  `subscription_prefix` varchar(255) NOT NULL DEFAULT '',
+  `calendar_google_api_key` varchar(255) DEFAULT NULL,
+  `calendar_google_event_address` varchar(255) DEFAULT NULL,
+  `default_client_modules` varchar(255) DEFAULT NULL,
+  `estimate_reference` int(10) NOT NULL,
+  `login_background` varchar(255) DEFAULT 'field.jpg',
+  `custom_colors` int(1) DEFAULT '1',
+  `top_bar_background` varchar(60) DEFAULT '#FFFFFF',
+  `top_bar_color` varchar(60) DEFAULT '#333333',
+  `body_background` varchar(60) DEFAULT '#D8DCE3',
+  `menu_background` varchar(60) DEFAULT '#2c3e4d',
+  `menu_color` varchar(60) DEFAULT '#FFFFFF',
+  `primary_color` varchar(60) DEFAULT '#28a9f1',
+  `twocheckout_seller_id` varchar(250) DEFAULT '',
+  `twocheckout_publishable_key` varchar(250) DEFAULT '',
+  `twocheckout_private_key` varchar(250) DEFAULT '',
+  `twocheckout` int(11) DEFAULT '0',
+  `twocheckout_currency` varchar(250) DEFAULT '',
+  `login_logo` varchar(255) DEFAULT '',
+  `login_style` varchar(255) DEFAULT 'left',
+  `reference_lenght` int(11) DEFAULT '0',
+  `stripe_ideal` int(1) unsigned NOT NULL DEFAULT '0',
+  `zip_position` varchar(10) DEFAULT 'left',
+  `timezone` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `core`
+--
+
+LOCK TABLES `core` WRITE;
+/*!40000 ALTER TABLE `core` DISABLE KEYS */;
+INSERT INTO `core` VALUES (1,'3.1.2','http://dev.platform.spera.io/','dhogan@spera.io','Spera','0','$',1,1,0,0,'Thank you for your business. We do expect payment within {due_date}, so please process this invoice within that time.',41001,51001,31001,61001,10000,'Y/m/d','g:i A','New Invoice','Password Reset','Password Reset','Login Details','Notification','english','100 West Canyon Crest Road Ste 100','Alpine','Damon Hogan','8017177977','New Subscription','assets/blueline/images/FC2_logo_light.png','blueline','0','USD','','assets/blueline/images/FC2_logo_dark.png','assets/blueline/img/favicon.ico','27168c93-44e2-48da-b8ab-4cb83a6074c3',NULL,NULL,1,1,1,'new',NULL,NULL,NULL,NULL,NULL,NULL,'/notls','UNSEEN',0,NULL,0,0,1,0,NULL,'','USD',0,NULL,NULL,'EST','templates/estimate/blueline','templates/invoice/blueline','','New Estimate #{estimate_id}',1,1,'NotoSans',1,0,NULL,NULL,NULL,NULL,'','','','','',NULL,NULL,NULL,20000,'table.jpg',1,'#FFFFFF','#333333','#D8DCE3','#2c3e4d','#FFFFFF','#28a9f1','','','',0,'','','left',0,0,'left','');
+/*!40000 ALTER TABLE `core` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `custom_quotation_requests`
+--
+
+DROP TABLE IF EXISTS `custom_quotation_requests`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `custom_quotation_requests` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `form` longtext,
+  `custom_quotation_id` int(11) unsigned NOT NULL,
+  `date` varchar(50) DEFAULT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `user_id` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `custom_quotation_requests`
+--
+
+LOCK TABLES `custom_quotation_requests` WRITE;
+/*!40000 ALTER TABLE `custom_quotation_requests` DISABLE KEYS */;
+/*!40000 ALTER TABLE `custom_quotation_requests` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `custom_quotations`
+--
+
+DROP TABLE IF EXISTS `custom_quotations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `custom_quotations` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT '',
+  `formcontent` longtext,
+  `inactive` tinyint(4) DEFAULT '0',
+  `user_id` int(11) DEFAULT '0',
+  `created` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `custom_quotations`
+--
+
+LOCK TABLES `custom_quotations` WRITE;
+/*!40000 ALTER TABLE `custom_quotations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `custom_quotations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `events`
+--
+
+DROP TABLE IF EXISTS `events`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `events` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT '',
+  `description` text,
+  `allday` varchar(30) DEFAULT '',
+  `url` varchar(255) DEFAULT '',
+  `classname` varchar(255) DEFAULT '',
+  `start` varchar(255) DEFAULT '',
+  `end` varchar(255) DEFAULT '',
+  `user_id` bigint(20) DEFAULT '0',
+  `access` varchar(255) DEFAULT '',
+  `reminder` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `events`
+--
+
+LOCK TABLES `events` WRITE;
+/*!40000 ALTER TABLE `events` DISABLE KEYS */;
+/*!40000 ALTER TABLE `events` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `expenses`
+--
+
+DROP TABLE IF EXISTS `expenses`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `expenses` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `description` varchar(250) DEFAULT '',
+  `type` varchar(250) DEFAULT '',
+  `category` varchar(250) DEFAULT '',
+  `date` varchar(250) DEFAULT '',
+  `currency` varchar(250) DEFAULT '',
+  `value` float(20,2) DEFAULT '0.00',
+  `vat` varchar(250) DEFAULT '',
+  `reference` varchar(250) DEFAULT '',
+  `project_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `rebill` int(20) unsigned NOT NULL DEFAULT '0',
+  `invoice_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `attachment` varchar(250) DEFAULT '',
+  `attachment_description` varchar(250) DEFAULT '',
+  `recurring` varchar(250) DEFAULT '',
+  `recurring_until` varchar(250) DEFAULT '',
+  `user_id` int(20) DEFAULT '0',
+  `expense_id` bigint(20) DEFAULT '0',
+  `next_payment` varchar(255) DEFAULT '',
+  `status` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `expenses`
+--
+
+LOCK TABLES `expenses` WRITE;
+/*!40000 ALTER TABLE `expenses` DISABLE KEYS */;
+/*!40000 ALTER TABLE `expenses` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `invoice_has_items`
+--
+
+DROP TABLE IF EXISTS `invoice_has_items`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `invoice_has_items` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `invoice_id` int(11) NOT NULL,
+  `item_id` int(11) NOT NULL,
+  `amount` char(11) DEFAULT NULL,
+  `description` text,
+  `value` float DEFAULT NULL,
+  `name` varchar(250) DEFAULT NULL,
+  `type` varchar(250) DEFAULT NULL,
+  `task_id` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `invoice_has_items`
+--
+
+LOCK TABLES `invoice_has_items` WRITE;
+/*!40000 ALTER TABLE `invoice_has_items` DISABLE KEYS */;
+/*!40000 ALTER TABLE `invoice_has_items` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `invoice_has_payments`
+--
+
+DROP TABLE IF EXISTS `invoice_has_payments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `invoice_has_payments` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `invoice_id` bigint(20) DEFAULT '0',
+  `reference` varchar(250) DEFAULT '',
+  `amount` float DEFAULT '0',
+  `date` varchar(20) DEFAULT '',
+  `type` varchar(250) DEFAULT '',
+  `notes` text,
+  `user_id` bigint(20) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `invoice_has_payments`
+--
+
+LOCK TABLES `invoice_has_payments` WRITE;
+/*!40000 ALTER TABLE `invoice_has_payments` DISABLE KEYS */;
+/*!40000 ALTER TABLE `invoice_has_payments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `invoice_has_users`
+--
+
+DROP TABLE IF EXISTS `invoice_has_users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `invoice_has_users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `invoice_id` int(11) NOT NULL DEFAULT '0',
+  `user_id` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `FK__invoices` (`invoice_id`),
+  KEY `FK_invoice_has_users_users` (`user_id`),
+  CONSTRAINT `FK__invoices` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_invoice_has_users_users` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `invoice_has_users`
+--
+
+LOCK TABLES `invoice_has_users` WRITE;
+/*!40000 ALTER TABLE `invoice_has_users` DISABLE KEYS */;
+/*!40000 ALTER TABLE `invoice_has_users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `invoices`
+--
+
+DROP TABLE IF EXISTS `invoices`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `invoices` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `reference` int(11) DEFAULT NULL,
+  `company_id` int(11) NOT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `currency` varchar(20) DEFAULT NULL,
+  `issue_date` varchar(20) DEFAULT NULL,
+  `due_date` varchar(20) DEFAULT NULL,
+  `sent_date` varchar(20) DEFAULT NULL,
+  `paid_date` varchar(20) DEFAULT NULL,
+  `terms` mediumtext,
+  `discount` varchar(50) DEFAULT '0',
+  `subscription_id` varchar(50) DEFAULT '0',
+  `project_id` int(11) DEFAULT '0',
+  `tax` varchar(255) DEFAULT '',
+  `estimate` int(11) DEFAULT '0',
+  `estimate_status` varchar(255) DEFAULT '0',
+  `estimate_accepted_date` varchar(255) DEFAULT '0',
+  `estimate_sent` varchar(255) DEFAULT '0',
+  `sum` float DEFAULT '0',
+  `second_tax` varchar(5) DEFAULT '',
+  `estimate_reference` varchar(255) DEFAULT '',
+  `paid` float DEFAULT NULL,
+  `outstanding` float NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `invoices`
+--
+
+LOCK TABLES `invoices` WRITE;
+/*!40000 ALTER TABLE `invoices` DISABLE KEYS */;
+/*!40000 ALTER TABLE `invoices` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `items`
+--
+
+DROP TABLE IF EXISTS `items`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `items` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `value` float DEFAULT NULL,
+  `type` varchar(45) DEFAULT NULL,
+  `inactive` tinyint(4) DEFAULT '0',
+  `description` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `items`
+--
+
+LOCK TABLES `items` WRITE;
+/*!40000 ALTER TABLE `items` DISABLE KEYS */;
+/*!40000 ALTER TABLE `items` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `mentions`
+--
+
+DROP TABLE IF EXISTS `mentions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `mentions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `guid` varchar(45) NOT NULL,
+  `mention` varchar(45) NOT NULL,
+  `comment` varchar(45) NOT NULL,
+  `action` varchar(255) NOT NULL,
+  `user_id` mediumint(9) NOT NULL,
+  `item_id` mediumint(9) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `is_read` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `guid` (`guid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `mentions`
+--
+
+LOCK TABLES `mentions` WRITE;
+/*!40000 ALTER TABLE `mentions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `mentions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `messages`
+--
+
+DROP TABLE IF EXISTS `messages`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `project_id` int(11) DEFAULT '0',
+  `media_id` int(11) DEFAULT '0',
+  `from` varchar(120) DEFAULT NULL,
+  `text` text,
+  `datetime` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `messages`
+--
+
+LOCK TABLES `messages` WRITE;
+/*!40000 ALTER TABLE `messages` DISABLE KEYS */;
+/*!40000 ALTER TABLE `messages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `migrations`
+--
+
+DROP TABLE IF EXISTS `migrations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `migrations` (
+  `version` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `migrations`
+--
+
+LOCK TABLES `migrations` WRITE;
+/*!40000 ALTER TABLE `migrations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `migrations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `modules`
+--
+
+DROP TABLE IF EXISTS `modules`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `modules` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT '0',
+  `link` varchar(250) DEFAULT '0',
+  `type` varchar(250) DEFAULT '0',
+  `icon` varchar(150) DEFAULT NULL,
+  `sort` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=109 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `modules`
+--
+
+LOCK TABLES `modules` WRITE;
+/*!40000 ALTER TABLE `modules` DISABLE KEYS */;
+INSERT INTO `modules` VALUES (1,'Dashboard','dashboard','main','icon dripicons-meter',1),(2,'Messages','messages','main','icon dripicons-message',2),(3,'Projects','projects','main','icon dripicons-rocket',3),(4,'Clients','clients','main','icon dripicons-user',4),(5,'Invoices','invoices','main','icon dripicons-document',5),(6,'Items','items','main','icon dripicons-shopping-bag',7),(7,'Quotations','quotations','main','icon dripicons-blog',8),(8,'Subscriptions','subscriptions','main','icon dripicons-retweet',6),(9,'Settings','settings','main','icon dripicons-toggles',20),(10,'QuickAccess','quickaccess','widget',NULL,50),(11,'User Online','useronline','widget',NULL,51),(12,'Projects','cprojects','client','icon dripicons-rocket',2),(13,'Invoices','cinvoices','client','icon dripicons-document',3),(14,'Messages','cmessages','client','icon dripicons-message',1),(15,'Subscriptions','csubscriptions','client','icon dripicons-retweet',4),(16,'Tickets','tickets','main','icon dripicons-ticket',8),(17,'Tickets','ctickets','client','icon dripicons-ticket',4),(18,'Estimates','estimates','main','icon dripicons-document-edit',5),(19,'Expenses','expenses','main','icon dripicons-cart',5),(20,'Calendar','calendar','main','icon dripicons-calendar',8),(33,'Reports','reports','main','icon dripicons-graph-pie',8),(107,'Estimates','cestimates','client','icon dripicons-document-edit',3),(108,'Team Invoices','tinvoices','team','icon dripicons-document',5);
+/*!40000 ALTER TABLE `modules` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `privatemessages`
+--
+
+DROP TABLE IF EXISTS `privatemessages`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `privatemessages` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `status` varchar(150) NOT NULL,
+  `sender` varchar(250) NOT NULL,
+  `recipient` varchar(250) NOT NULL,
+  `subject` varchar(255) DEFAULT NULL,
+  `message` text,
+  `time` varchar(100) NOT NULL,
+  `conversation` varchar(255) DEFAULT NULL,
+  `deleted` int(11) DEFAULT '0',
+  `attachment` varchar(255) DEFAULT '',
+  `attachment_link` varchar(255) DEFAULT '',
+  `receiver_delete` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `privatemessages`
+--
+
+LOCK TABLES `privatemessages` WRITE;
+/*!40000 ALTER TABLE `privatemessages` DISABLE KEYS */;
+/*!40000 ALTER TABLE `privatemessages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_activities`
+--
+
+DROP TABLE IF EXISTS `project_has_activities`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_activities` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `project_id` bigint(20) DEFAULT '0',
+  `user_id` bigint(20) DEFAULT '0',
+  `client_id` bigint(20) DEFAULT '0',
+  `datetime` varchar(250) DEFAULT '0',
+  `subject` varchar(250) DEFAULT '0',
+  `message` longtext,
+  `type` varchar(250) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_activities`
+--
+
+LOCK TABLES `project_has_activities` WRITE;
+/*!40000 ALTER TABLE `project_has_activities` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_activities` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_files`
+--
+
+DROP TABLE IF EXISTS `project_has_files`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_files` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `project_id` int(10) DEFAULT '0',
+  `user_id` int(10) DEFAULT '0',
+  `client_id` int(10) DEFAULT '0',
+  `type` varchar(80) DEFAULT '0',
+  `name` varchar(120) DEFAULT '0',
+  `filename` varchar(150) DEFAULT '0',
+  `description` text,
+  `savename` varchar(200) DEFAULT '0',
+  `phase` varchar(100) DEFAULT '0',
+  `date` varchar(50) DEFAULT '0',
+  `download_counter` int(10) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_files`
+--
+
+LOCK TABLES `project_has_files` WRITE;
+/*!40000 ALTER TABLE `project_has_files` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_files` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_invoices`
+--
+
+DROP TABLE IF EXISTS `project_has_invoices`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_invoices` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `project_id` bigint(20) DEFAULT '0',
+  `invoice_id` bigint(20) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_invoices`
+--
+
+LOCK TABLES `project_has_invoices` WRITE;
+/*!40000 ALTER TABLE `project_has_invoices` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_invoices` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_milestones`
+--
+
+DROP TABLE IF EXISTS `project_has_milestones`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_milestones` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `project_id` int(11) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `description` longtext,
+  `due_date` varchar(255) DEFAULT '',
+  `orderindex` int(11) DEFAULT NULL,
+  `start_date` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_milestones`
+--
+
+LOCK TABLES `project_has_milestones` WRITE;
+/*!40000 ALTER TABLE `project_has_milestones` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_milestones` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_tasks`
+--
+
+DROP TABLE IF EXISTS `project_has_tasks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_tasks` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `project_id` int(10) DEFAULT '0',
+  `name` varchar(250) DEFAULT '0',
+  `user_id` int(10) DEFAULT '0',
+  `status` varchar(50) DEFAULT '0',
+  `public` int(10) DEFAULT '0',
+  `datetime` int(11) DEFAULT NULL,
+  `due_date` varchar(250) DEFAULT NULL,
+  `description` text,
+  `value` float NOT NULL DEFAULT '0',
+  `priority` smallint(6) DEFAULT '0',
+  `time` int(11) DEFAULT '0',
+  `client_id` int(30) DEFAULT NULL,
+  `created_by_client` int(30) DEFAULT '0',
+  `tracking` int(11) DEFAULT NULL,
+  `time_spent` int(11) DEFAULT NULL,
+  `milestone_id` int(11) DEFAULT '0',
+  `invoice_id` int(60) DEFAULT NULL,
+  `milestone_order` int(11) DEFAULT NULL,
+  `task_order` int(11) DEFAULT NULL,
+  `progress` int(11) DEFAULT '0',
+  `created_at` varchar(50) DEFAULT NULL,
+  `start_date` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_tasks`
+--
+
+LOCK TABLES `project_has_tasks` WRITE;
+/*!40000 ALTER TABLE `project_has_tasks` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_tasks` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_timesheets`
+--
+
+DROP TABLE IF EXISTS `project_has_timesheets`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_timesheets` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `project_id` int(11) DEFAULT '0',
+  `user_id` int(11) DEFAULT '0',
+  `time` varchar(250) DEFAULT '0',
+  `task_id` int(11) DEFAULT '0',
+  `client_id` int(11) DEFAULT '0',
+  `start` varchar(250) DEFAULT '0',
+  `end` varchar(250) DEFAULT '0',
+  `invoice_id` int(11) DEFAULT '0',
+  `description` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_timesheets`
+--
+
+LOCK TABLES `project_has_timesheets` WRITE;
+/*!40000 ALTER TABLE `project_has_timesheets` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_timesheets` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `project_has_workers`
+--
+
+DROP TABLE IF EXISTS `project_has_workers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `project_has_workers` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `project_id` int(10) DEFAULT NULL,
+  `user_id` int(10) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `project_has_workers`
+--
+
+LOCK TABLES `project_has_workers` WRITE;
+/*!40000 ALTER TABLE `project_has_workers` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project_has_workers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `projects`
+--
+
+DROP TABLE IF EXISTS `projects`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `projects` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `reference` int(11) DEFAULT NULL,
+  `name` varchar(65) DEFAULT NULL,
+  `description` text,
+  `start` varchar(20) DEFAULT NULL,
+  `end` varchar(20) DEFAULT NULL,
+  `progress` decimal(3,0) DEFAULT NULL,
+  `phases` varchar(150) DEFAULT NULL,
+  `tracking` int(11) DEFAULT NULL,
+  `time_spent` int(11) DEFAULT NULL,
+  `datetime` int(11) DEFAULT NULL,
+  `sticky` enum('1','0') DEFAULT '0',
+  `category` varchar(150) DEFAULT NULL,
+  `company_id` int(11) DEFAULT NULL,
+  `note` longtext,
+  `progress_calc` tinyint(4) DEFAULT '0',
+  `hide_tasks` int(1) DEFAULT '0',
+  `enable_client_tasks` int(1) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `fk_projects_clients1` (`company_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `projects`
+--
+
+LOCK TABLES `projects` WRITE;
+/*!40000 ALTER TABLE `projects` DISABLE KEYS */;
+/*!40000 ALTER TABLE `projects` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pw_reset`
+--
+
+DROP TABLE IF EXISTS `pw_reset`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pw_reset` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `email` varchar(250) DEFAULT '0',
+  `timestamp` varchar(250) DEFAULT '0',
+  `token` varchar(250) DEFAULT '0',
+  `user` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pw_reset`
+--
+
+LOCK TABLES `pw_reset` WRITE;
+/*!40000 ALTER TABLE `pw_reset` DISABLE KEYS */;
+/*!40000 ALTER TABLE `pw_reset` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `queues`
+--
+
+DROP TABLE IF EXISTS `queues`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `queues` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT '0',
+  `description` varchar(250) DEFAULT '0',
+  `inactive` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `queues`
+--
+
+LOCK TABLES `queues` WRITE;
+/*!40000 ALTER TABLE `queues` DISABLE KEYS */;
+INSERT INTO `queues` VALUES (1,'Service','First service queue',0),(2,'Second Level','Second Level Queue',0);
+/*!40000 ALTER TABLE `queues` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `quotations`
+--
+
+DROP TABLE IF EXISTS `quotations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `quotations` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `q1` varchar(50) DEFAULT NULL,
+  `q2` varchar(50) DEFAULT NULL,
+  `q3` varchar(50) DEFAULT NULL,
+  `q4` varchar(150) DEFAULT NULL,
+  `q5` text,
+  `q6` varchar(50) DEFAULT NULL,
+  `company` varchar(150) DEFAULT '-',
+  `fullname` varchar(150) DEFAULT NULL,
+  `email` varchar(150) DEFAULT NULL,
+  `phone` varchar(150) DEFAULT NULL,
+  `address` varchar(150) DEFAULT NULL,
+  `city` varchar(150) DEFAULT NULL,
+  `zip` varchar(150) DEFAULT NULL,
+  `country` varchar(150) DEFAULT NULL,
+  `comment` text,
+  `date` varchar(50) DEFAULT NULL,
+  `status` varchar(150) DEFAULT '0',
+  `user_id` int(50) DEFAULT '0',
+  `replied` varchar(50) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `quotations`
+--
+
+LOCK TABLES `quotations` WRITE;
+/*!40000 ALTER TABLE `quotations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `quotations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `subscription_has_items`
+--
+
+DROP TABLE IF EXISTS `subscription_has_items`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscription_has_items` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `subscription_id` int(11) NOT NULL,
+  `item_id` int(11) NOT NULL,
+  `amount` char(11) DEFAULT NULL,
+  `description` text,
+  `value` float DEFAULT NULL,
+  `name` varchar(250) DEFAULT NULL,
+  `type` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `subscription_has_items`
+--
+
+LOCK TABLES `subscription_has_items` WRITE;
+/*!40000 ALTER TABLE `subscription_has_items` DISABLE KEYS */;
+/*!40000 ALTER TABLE `subscription_has_items` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `subscriptions`
+--
+
+DROP TABLE IF EXISTS `subscriptions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscriptions` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `reference` varchar(50) DEFAULT NULL,
+  `company_id` int(10) DEFAULT '0',
+  `status` varchar(50) DEFAULT NULL,
+  `currency` varchar(20) DEFAULT NULL,
+  `issue_date` varchar(20) DEFAULT NULL,
+  `end_date` varchar(20) DEFAULT NULL,
+  `frequency` varchar(20) DEFAULT NULL,
+  `next_payment` varchar(20) DEFAULT NULL,
+  `terms` mediumtext,
+  `discount` varchar(50) DEFAULT '0',
+  `subscribed` varchar(50) DEFAULT '0',
+  `tax` varchar(255) DEFAULT '',
+  `second_tax` varchar(255) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `subscriptions`
+--
+
+LOCK TABLES `subscriptions` WRITE;
+/*!40000 ALTER TABLE `subscriptions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `subscriptions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `task_has_comments`
+--
+
+DROP TABLE IF EXISTS `task_has_comments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `task_has_comments` (
+  `id` bigint(255) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) DEFAULT NULL,
+  `client_id` int(11) DEFAULT NULL,
+  `message` text,
+  `datetime` varchar(20) DEFAULT NULL,
+  `attachment` varchar(255) DEFAULT NULL,
+  `task_id` bigint(20) DEFAULT NULL,
+  `attachment_link` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `task_has_comments`
+--
+
+LOCK TABLES `task_has_comments` WRITE;
+/*!40000 ALTER TABLE `task_has_comments` DISABLE KEYS */;
+/*!40000 ALTER TABLE `task_has_comments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `task_has_subtasks`
+--
+
+DROP TABLE IF EXISTS `task_has_subtasks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `task_has_subtasks` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `task_id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `worker_id` int(11) DEFAULT NULL,
+  `status` varchar(50) NOT NULL DEFAULT 'open',
+  PRIMARY KEY (`id`),
+  KEY `task_id` (`task_id`),
+  KEY `task_has_subtasks_ibfk_2` (`worker_id`),
+  CONSTRAINT `task_has_subtasks_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `project_has_tasks` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `task_has_subtasks_ibfk_2` FOREIGN KEY (`worker_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `task_has_subtasks`
+--
+
+LOCK TABLES `task_has_subtasks` WRITE;
+/*!40000 ALTER TABLE `task_has_subtasks` DISABLE KEYS */;
+/*!40000 ALTER TABLE `task_has_subtasks` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `task_has_workers`
+--
+
+DROP TABLE IF EXISTS `task_has_workers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `task_has_workers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `task_id` int(11) NOT NULL,
+  `worker_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `task_id` (`task_id`),
+  CONSTRAINT `task_has_workers_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `project_has_tasks` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `task_has_workers`
+--
+
+LOCK TABLES `task_has_workers` WRITE;
+/*!40000 ALTER TABLE `task_has_workers` DISABLE KEYS */;
+/*!40000 ALTER TABLE `task_has_workers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `templates`
+--
+
+DROP TABLE IF EXISTS `templates`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `templates` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` varchar(250) DEFAULT NULL,
+  `name` varchar(250) DEFAULT NULL,
+  `text` text,
+  `updated` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `templates`
+--
+
+LOCK TABLES `templates` WRITE;
+/*!40000 ALTER TABLE `templates` DISABLE KEYS */;
+/*!40000 ALTER TABLE `templates` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ticket_has_articles`
+--
+
+DROP TABLE IF EXISTS `ticket_has_articles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ticket_has_articles` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `ticket_id` int(11) DEFAULT NULL,
+  `from` varchar(250) NOT NULL DEFAULT '0',
+  `reply_to` varchar(250) DEFAULT '0',
+  `to` varchar(250) DEFAULT '0',
+  `cc` varchar(250) DEFAULT '0',
+  `subject` varchar(250) DEFAULT '0',
+  `message` text,
+  `datetime` varchar(250) DEFAULT NULL,
+  `internal` int(10) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ticket_has_articles`
+--
+
+LOCK TABLES `ticket_has_articles` WRITE;
+/*!40000 ALTER TABLE `ticket_has_articles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ticket_has_articles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ticket_has_attachments`
+--
+
+DROP TABLE IF EXISTS `ticket_has_attachments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ticket_has_attachments` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `ticket_id` bigint(20) DEFAULT '0',
+  `filename` varchar(250) DEFAULT '0',
+  `savename` varchar(250) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ticket_has_attachments`
+--
+
+LOCK TABLES `ticket_has_attachments` WRITE;
+/*!40000 ALTER TABLE `ticket_has_attachments` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ticket_has_attachments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tickets`
+--
+
+DROP TABLE IF EXISTS `tickets`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tickets` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `from` varchar(250) DEFAULT '0',
+  `reference` varchar(250) DEFAULT '0',
+  `type_id` smallint(6) DEFAULT '1',
+  `lock` smallint(6) DEFAULT '0',
+  `subject` varchar(250) DEFAULT '0',
+  `text` text,
+  `status` varchar(50) DEFAULT '0',
+  `client_id` int(11) DEFAULT '0',
+  `company_id` int(11) DEFAULT '0',
+  `user_id` int(11) DEFAULT '0',
+  `escalation_time` int(11) DEFAULT '0',
+  `priority` varchar(50) DEFAULT '0',
+  `created` int(11) DEFAULT '0',
+  `queue_id` int(11) DEFAULT '0',
+  `updated` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tickets`
+--
+
+LOCK TABLES `tickets` WRITE;
+/*!40000 ALTER TABLE `tickets` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tickets` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `types`
+--
+
+DROP TABLE IF EXISTS `types`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `types` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT '0',
+  `description` varchar(250) DEFAULT '0',
+  `inactive` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 ROW_FORMAT=COMPACT;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `types`
+--
+
+LOCK TABLES `types` WRITE;
+/*!40000 ALTER TABLE `types` DISABLE KEYS */;
+INSERT INTO `types` VALUES (1,'Service Request','Service Requests',0);
+/*!40000 ALTER TABLE `types` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(45) DEFAULT NULL,
+  `firstname` varchar(120) DEFAULT NULL,
+  `lastname` varchar(120) DEFAULT NULL,
+  `hashed_password` varchar(128) DEFAULT NULL,
+  `email` varchar(60) DEFAULT NULL,
+  `status` enum('active','inactive','deleted') DEFAULT NULL,
+  `admin` enum('0','1') DEFAULT NULL,
+  `created` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `userpic` varchar(250) DEFAULT 'no-pic.png',
+  `title` varchar(150) DEFAULT NULL,
+  `access` varchar(150) NOT NULL DEFAULT '1,2',
+  `last_active` varchar(50) DEFAULT NULL,
+  `last_login` varchar(50) DEFAULT NULL,
+  `queue` bigint(20) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (9,'Admin','John','Doe','785ea3511702420413df674029fe58d69692b3a0a571c0ba30177c7808db69ea22a8596b1cc5777403d4374dafaa708445a9926d6ead9a262e37cb0d78db1fe5','local@localhost','active','1','2016-02-01 14:00:00','no-pic.png','Administrator','1,2,3,4,5,8,6,7,9,10,11,16,18,19,20,33','1506963998','1506962964',0);
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2018-01-16 14:07:50

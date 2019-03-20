@@ -1,0 +1,22 @@
+<?php if ( ! defined("BASEPATH")) exit("No direct script access allowed");
+	$config["useragent"]        = "PHPMailer";      
+	$config["protocol"]         = "smtp";
+	$config["mailpath"]         = "/usr/sbin/sendmail";
+	$config["smtp_host"]        = "email-smtp.us-west-2.amazonaws.com";
+	$config["smtp_user"]        = "AKIAJLAB3HB5MMRNRWRA";
+	$config["smtp_pass"]        = "Amlfntj8SVnibvzLFyfnZzUbJ1bP1RzGp9CujutTs++T";
+	$config["smtp_port"]        = "587";
+	$config["smtp_timeout"]     = "5";      
+	$config["smtp_crypto"]      = "tls";    
+	$config["smtp_debug"]       = "0";      
+	$config["wordwrap"]         = true;
+	$config["wrapchars"]        = 76;
+	$config["mailtype"]         = "html";          
+	$config["charset"]          = "utf-8";
+	$config["validate"]         = true;
+	$config["priority"]         = 3;                
+	$config["crlf"]             = "\r\n";                     
+	$config["newline"]          = "\r\n";                    
+	$config["bcc_batch_mode"]   = false;
+	$config["bcc_batch_size"]   = 200;
+				

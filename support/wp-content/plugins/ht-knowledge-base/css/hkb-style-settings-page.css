@@ -1,0 +1,94 @@
+/* 
+To merge into hkb-style-admin
+*/
+.hkb-admin-settings-page {
+  margin: 20px 0 0;
+  /* Clearfix */ }
+  .hkb-admin-settings-page *,
+  .hkb-admin-settings-page *:before,
+  .hkb-admin-settings-page *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .hkb-admin-settings-page #hkb-settings-tabs ul {
+    *zoom: 1; }
+    .hkb-admin-settings-page #hkb-settings-tabs ul:before, .hkb-admin-settings-page #hkb-settings-tabs ul:after {
+      content: "";
+      display: table; }
+    .hkb-admin-settings-page #hkb-settings-tabs ul:after {
+      clear: both; }
+  .hkb-admin-settings-page h1 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    font-size: 23px;
+    line-height: 29px; }
+  .hkb-admin-settings-page #hkb-settings-tabs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ccc; }
+    .hkb-admin-settings-page #hkb-settings-tabs ul li {
+      float: left;
+      margin: 0 0 -1px 0;
+      padding: 0; }
+      .hkb-admin-settings-page #hkb-settings-tabs ul li a {
+        display: block;
+        background: #e5e5e5;
+        border: 1px solid #ccc;
+        line-height: 24px;
+        padding: 5px 10px;
+        margin: 0 0 0 7px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #555;
+        white-space: nowrap;
+        text-decoration: none;
+        outline: 0; }
+        .hkb-admin-settings-page #hkb-settings-tabs ul li a:hover, .hkb-admin-settings-page #hkb-settings-tabs ul li a:focus {
+          background-color: #fff;
+          color: #444;
+          box-shadow: none; }
+        .hkb-admin-settings-page #hkb-settings-tabs ul li a.active {
+          border-bottom: 1px solid #f1f1f1;
+          background: #f1f1f1;
+          color: #000; }
+  .hkb-admin-settings-page .hkb-settings-section {
+    display: none; }
+    .hkb-admin-settings-page .hkb-settings-section.active {
+      display: block; }
+  .hkb-admin-settings-page input[type="text"] {
+    width: 250px; }
+  .hkb-admin-settings-page select {
+    width: 250px; }
+  .hkb-admin-settings-page textarea {
+    width: 300px;
+    min-height: 100px; }
+  .hkb-admin-settings-page .hkb_setting_desc {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+    margin: 4px 0 0; }
+    .hkb-admin-settings-page .hkb_setting_desc.hkb_setting_desc--inline {
+      display: inline-block; }
+  .hkb-admin-settings-page .hkb-license-status {
+    display: inline-block;
+    margin: 20px 0 0 210px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 5px; }
+    .hkb-admin-settings-page .hkb-license-status:before {
+      content: "";
+      display: inline-block;
+      border-radius: 99px;
+      height: 15px;
+      width: 15px;
+      margin: 0 5px 0 0;
+      top: 2px;
+      position: relative; }
+    .hkb-admin-settings-page .hkb-license-status.hkb-license-status--valid:before {
+      background: #4bc681; }
+    .hkb-admin-settings-page .hkb-license-status.hkb-license-status--invalid:before {
+      background: #ff3f52; }
+
+/*# sourceMappingURL=hkb-style-settings-page.css.map */

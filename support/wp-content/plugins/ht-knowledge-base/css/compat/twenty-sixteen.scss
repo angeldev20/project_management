@@ -1,0 +1,23 @@
+/**
+* Theme Compatibility notes for twentysixteen
+* -> Make kb article full width
+* -> Remove box-shadow from .entry-content a
+*/
+
+
+
+body.ht-kb {
+
+  article.type-ht_kb .entry-content {
+    float: none;
+    width: 100%;
+    a {
+      box-shadow: none;
+    }
+  }
+
+  article .entry-footer {
+    display: none;
+  }
+  
+}

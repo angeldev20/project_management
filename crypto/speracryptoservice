@@ -1,0 +1,17 @@
+#!/bin/bash
+# SperaCryptoService
+#
+# description: install this in /etc/init.d folder and run update-rc.d speracryptoservice defaults
+case $1 in
+    start)
+        /bin/bash /usr/local/bin/crypto-start.sh
+    ;;
+    stop)
+        /bin/bash /usr/local/bin/crypto-stop.sh
+    ;;
+    restart)
+        /bin/bash /usr/local/bin/crypto-stop.sh
+        /bin/bash /usr/local/bin/crypto-start.sh
+    ;;
+esac
+exit 0

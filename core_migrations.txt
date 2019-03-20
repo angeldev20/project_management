@@ -1,0 +1,64 @@
+ALTER TABLE `core` ADD COLUMN `favicon` VARCHAR(150) NULL DEFAULT 'assets/blueline/img/favicon.ico' AFTER `invoice_logo`;
+
+CREATE TABLE `mentions` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`guid` VARCHAR(45) NOT NULL,
+	`mention` VARCHAR(45) NOT NULL,
+	`comment` VARCHAR(45) NOT NULL,
+	`action` VARCHAR(255) NOT NULL,
+	`user_id` MEDIUMINT(9) NOT NULL,
+	`item_id` MEDIUMINT(9) NOT NULL,
+	`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`updated_at` TIMESTAMP NULL DEFAULT NULL,
+	`is_read` TINYINT(1) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	UNIQUE INDEX `guid` (`guid`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;
+CREATE TABLE `task_has_workers` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`task_id` INT(11) NOT NULL,
+	`worker_id` INT(11) NOT NULL,
+	PRIMARY KEY (`id`),
+	INDEX `task_id` (`task_id`),
+	CONSTRAINT `task_has_workers_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `project_has_tasks` (`id`) ON UPDATE CASCADE ON DELETE CASCADE
+)
+COLLATE='utf8_general_ci
+ENGINE=InnoDB
+;
+CREATE TABLE `task_has_subtasks` (
+                         	`id` INT(11) NOT NULL AUTO_INCREMENT,
+                         	`task_id` INT(11) NOT NULL,
+                         	`name` VARCHAR(255) NOT NULL,
+                         	`timestamp` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                         	PRIMARY KEY (`id`),
+                         	INDEX `task_id` (`task_id`),
+                         	CONSTRAINT `task_has_subtasks_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `project_has_tasks` (`id`) ON UPDATE CASCADE ON DELETE CASCADE
+                         )
+                         COLLATE='utf8_general_ci'
+                         ENGINE=InnoDB
+                         ;
+ALTER TABLE `task_has_subtasks`
+	ADD COLUMN `worker_id` INT NULL AFTER `timestamp`,
+	ADD COLUMN `status` VARCHAR(50) NOT NULL DEFAULT 'open' AFTER `worker_id`,
+	ADD CONSTRAINT `task_has_subtasks_ibfk_2` FOREIGN KEY (`worker_id`) REFERENCES `users` (`id`) ON UPDATE CASCADE ON DELETE CASCADE;
+
+CREATE TABLE `invoice_has_users` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`invoice_id` INT(11) NOT NULL DEFAULT '0',
+	`user_id` INT(11) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	INDEX `FK__invoices` (`invoice_id`),
+	INDEX `FK_invoice_has_users_users` (`user_id`),
+	CONSTRAINT `FK__invoices` FOREIGN KEY (`invoice_id`) REFERENCES `invoices` (`id`) ON UPDATE CASCADE ON DELETE CASCADE,
+	CONSTRAINT `FK_invoice_has_users_users` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON UPDATE CASCADE ON DELETE CASCADE
+)
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+;
+
+INSERT INTO modules (name,link,type,icon,sort) VALUES ('Team Invoices','tinvoices','team','icon dripicons-document',5);
+
+ALTER TABLE `projects` DROP `phases`;

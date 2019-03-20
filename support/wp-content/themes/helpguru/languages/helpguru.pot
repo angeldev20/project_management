@@ -1,0 +1,2841 @@
+# Copyright (C) 2017 HeroThemes
+# This file is distributed under the ThemeForest Regular License.
+msgid ""
+msgstr ""
+"Project-Id-Version: HelpGuru 1.7.0-beta2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2017-10-03 14:18:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: build/hkb-templates/hkb-single.php:78 hkb-templates/hkb-single.php:78
+msgid "0"
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:78 hkb-templates/hkb-single.php:78
+msgid "1"
+msgstr ""
+
+#: 404.php:16 build/404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17 build/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: author.php:6 build/author.php:6
+msgid "Author %s"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:18
+#: build/bbpress/content-single-topic-lead.php:18
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:22 bbpress/loop-topics.php:19
+#: build/bbpress/content-single-topic-lead.php:22
+#: build/bbpress/loop-topics.php:19
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-statistics.php:17 build/bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr ""
+
+#: bbpress/content-statistics.php:22 build/bbpress/content-statistics.php:22
+#: build/template-homepage.php:103 template-homepage.php:103
+msgid "Forums"
+msgstr ""
+
+#: bbpress/content-statistics.php:27 build/bbpress/content-statistics.php:27
+#: build/template-homepage.php:104 template-homepage.php:104
+msgid "Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:32 bbpress/loop-topics.php:21
+#: build/bbpress/content-statistics.php:32 build/bbpress/loop-topics.php:21
+msgid "Replies"
+msgstr ""
+
+#: bbpress/content-statistics.php:37 build/bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:44 build/bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:53 build/bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:64 build/bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:13 build/bbpress/feedback-logged-in.php:13
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:13 build/bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16 build/bbpress/feedback-no-access.php:16
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:13 build/bbpress/feedback-no-forums.php:13
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-replies.php:13 build/bbpress/feedback-no-replies.php:13
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-search.php:13 build/bbpress/feedback-no-search.php:13
+msgid "Oh bother! No search results were found here!"
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:13 build/bbpress/feedback-no-topics.php:13
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: bbpress/form-anonymous.php:21 build/bbpress/form-anonymous.php:21
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:26 build/bbpress/form-anonymous.php:26
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:31 build/bbpress/form-anonymous.php:31
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-forum.php:33 bbpress/form-topic.php:39
+#: build/bbpress/form-forum.php:33 build/bbpress/form-topic.php:39
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:35 build/bbpress/form-forum.php:35
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:35 build/bbpress/form-forum.php:35
+msgid "Create New Forum"
+msgstr ""
+
+#: bbpress/form-forum.php:45 build/bbpress/form-forum.php:45
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+#: bbpress/form-forum.php:53 bbpress/form-reply.php:42
+#: bbpress/form-topic.php:59 build/bbpress/form-forum.php:53
+#: build/bbpress/form-reply.php:42 build/bbpress/form-topic.php:59
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-forum.php:65 build/bbpress/form-forum.php:65
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-forum.php:80 bbpress/form-reply.php:62
+#: bbpress/form-topic.php:88 build/bbpress/form-forum.php:80
+#: build/bbpress/form-reply.php:62 build/bbpress/form-topic.php:88
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+"tags and attributes:"
+msgstr ""
+
+#: bbpress/form-forum.php:89 build/bbpress/form-forum.php:89
+msgid "Forum Type:"
+msgstr ""
+
+#: bbpress/form-forum.php:98 build/bbpress/form-forum.php:98
+msgid "Status:"
+msgstr ""
+
+#: bbpress/form-forum.php:107 build/bbpress/form-forum.php:107
+msgid "Visibility:"
+msgstr ""
+
+#: bbpress/form-forum.php:116 build/bbpress/form-forum.php:116
+msgid "Parent Forum:"
+msgstr ""
+
+#: bbpress/form-forum.php:121 build/bbpress/form-forum.php:121
+msgid "(No Parent)"
+msgstr ""
+
+#: bbpress/form-forum.php:136 bbpress/form-reply-move.php:70
+#: bbpress/form-topic-merge.php:91 bbpress/form-topic-split.php:95
+#: bbpress/form-topic.php:201 build/bbpress/form-forum.php:136
+#: build/bbpress/form-reply-move.php:70 build/bbpress/form-topic-merge.php:91
+#: build/bbpress/form-topic-split.php:95 build/bbpress/form-topic.php:201
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-forum.php:159 build/bbpress/form-forum.php:159
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: bbpress/form-forum.php:167 build/bbpress/form-forum.php:167
+msgid "You cannot create new forums."
+msgstr ""
+
+#: bbpress/form-forum.php:167 build/bbpress/form-forum.php:167
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: bbpress/form-protected.php:14 build/bbpress/form-protected.php:14
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply-move.php:22 build/bbpress/form-reply-move.php:22
+msgid "Move reply \"%s\""
+msgstr ""
+
+#: bbpress/form-reply-move.php:27 build/bbpress/form-reply-move.php:27
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic."
+msgstr ""
+
+#: bbpress/form-reply-move.php:31 build/bbpress/form-reply-move.php:31
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created."
+msgstr ""
+
+#: bbpress/form-reply-move.php:35 build/bbpress/form-reply-move.php:35
+msgid "Move Method"
+msgstr ""
+
+#: bbpress/form-reply-move.php:39 bbpress/form-topic-split.php:39
+#: build/bbpress/form-reply-move.php:39 build/bbpress/form-topic-split.php:39
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:40 build/bbpress/form-reply-move.php:40
+msgid "Moved: %s"
+msgstr ""
+
+#: bbpress/form-reply-move.php:47 bbpress/form-topic-split.php:47
+#: build/bbpress/form-reply-move.php:47 build/bbpress/form-topic-split.php:47
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:66 bbpress/form-topic-merge.php:87
+#: bbpress/form-topic-split.php:91 build/bbpress/form-reply-move.php:66
+#: build/bbpress/form-topic-merge.php:87 build/bbpress/form-topic-split.php:91
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-reply-move.php:83 build/bbpress/form-reply-move.php:83
+msgid "You do not have the permissions to edit this reply!"
+msgstr ""
+
+#: bbpress/form-reply-move.php:83 build/bbpress/form-reply-move.php:83
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: bbpress/form-reply.php:27 build/bbpress/form-reply.php:27
+#: build/inc/comment-functions.php:68 inc/comment-functions.php:68
+msgid "Reply"
+msgstr ""
+
+#: bbpress/form-reply.php:34 build/bbpress/form-reply.php:34
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-reply.php:73 build/bbpress/form-reply.php:73
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:91 bbpress/form-topic.php:162
+#: build/bbpress/form-reply.php:91 build/bbpress/form-topic.php:162
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:95 bbpress/form-topic.php:166
+#: build/bbpress/form-reply.php:95 build/bbpress/form-topic.php:166
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:112 bbpress/form-topic.php:182
+#: build/bbpress/form-reply.php:112 build/bbpress/form-topic.php:182
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:116 bbpress/form-topic.php:186
+#: build/bbpress/form-reply.php:116 build/bbpress/form-topic.php:186
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:133 build/bbpress/form-reply.php:133
+msgid "Add Reply"
+msgstr ""
+
+#: bbpress/form-reply.php:156 build/bbpress/form-reply.php:156
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:164 bbpress/form-topic.php:224
+#: build/bbpress/form-reply.php:164 build/bbpress/form-topic.php:224
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:172 build/bbpress/form-reply.php:172
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:172 build/bbpress/form-reply.php:172
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-search.php:14 build/bbpress/form-search.php:14
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-search.php:16 build/bbpress/form-search.php:16
+msgid "Search Forums"
+msgstr ""
+
+#: bbpress/form-search.php:17 build/bbpress/form-search.php:17
+#: build/hkb-templates/hkb-searchbox.php:16 hkb-templates/hkb-searchbox.php:16
+msgid "Search"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:22 build/bbpress/form-topic-merge.php:22
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:27 build/bbpress/form-topic-merge.php:27
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:28 build/bbpress/form-topic-merge.php:28
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge "
+"tool from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:32 build/bbpress/form-topic-merge.php:32
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be "
+"updated to second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:36 build/bbpress/form-topic-merge.php:36
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:40 build/bbpress/form-topic-merge.php:40
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:54 build/bbpress/form-topic-merge.php:54
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:62 bbpress/form-topic-split.php:66
+#: build/bbpress/form-topic-merge.php:62 build/bbpress/form-topic-split.php:66
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:69 build/bbpress/form-topic-merge.php:69
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:74 build/bbpress/form-topic-merge.php:74
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:79 build/bbpress/form-topic-merge.php:79
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:104 bbpress/form-topic-split.php:108
+#: build/bbpress/form-topic-merge.php:104
+#: build/bbpress/form-topic-split.php:108
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:104 bbpress/form-topic-split.php:108
+#: build/bbpress/form-topic-merge.php:104
+#: build/bbpress/form-topic-split.php:108
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:22 build/bbpress/form-topic-split.php:22
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:27 build/bbpress/form-topic-split.php:27
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new "
+"title, or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:31 build/bbpress/form-topic-split.php:31
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the "
+"time and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:35 build/bbpress/form-topic-split.php:35
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:40 build/bbpress/form-topic-split.php:40
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:73 build/bbpress/form-topic-split.php:73
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:78 build/bbpress/form-topic-split.php:78
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:83 build/bbpress/form-topic-split.php:83
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:18 build/bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:22 build/bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:25 build/bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:29 build/bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will "
+"stop working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:35 build/bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40 build/bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:45 build/bbpress/form-topic-tag.php:45
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:59 bbpress/form-topic-tag.php:73
+#: build/bbpress/form-topic-tag.php:59 build/bbpress/form-topic-tag.php:73
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:62 build/bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:68 build/bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:73 build/bbpress/form-topic-tag.php:73
+msgid "Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:88 bbpress/form-topic-tag.php:101
+#: build/bbpress/form-topic-tag.php:88 build/bbpress/form-topic-tag.php:101
+msgid "Delete"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:91 build/bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:94 build/bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:95 build/bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:101 build/bbpress/form-topic-tag.php:101
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and "
+"cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:41 build/bbpress/form-topic.php:41
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:41 build/bbpress/form-topic.php:41
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:51 build/bbpress/form-topic.php:51
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:73 build/bbpress/form-topic.php:73
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:99 build/bbpress/form-topic.php:99
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:112 build/bbpress/form-topic.php:112
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:115 build/bbpress/form-topic.php:115
+msgid "(No Forum)"
+msgstr ""
+
+#: bbpress/form-topic.php:131 build/bbpress/form-topic.php:131
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:143 build/bbpress/form-topic.php:143
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:232 build/bbpress/form-topic.php:232
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:232 build/bbpress/form-topic.php:232
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:14 bbpress/form-user-edit.php:19
+#: build/bbpress/form-user-edit.php:14 build/bbpress/form-user-edit.php:19
+#: build/comments.php:58 build/inc/comment-functions.php:97 comments.php:58
+#: inc/comment-functions.php:97
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:24 build/bbpress/form-user-edit.php:24
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:29 build/bbpress/form-user-edit.php:29
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:34 build/bbpress/form-user-edit.php:34
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:39 build/bbpress/form-user-edit.php:39
+msgid "Display Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:49 bbpress/form-user-edit.php:52
+#: build/bbpress/form-user-edit.php:49 build/bbpress/form-user-edit.php:52
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:57 build/bbpress/form-user-edit.php:57
+#: build/comments.php:60 build/inc/comment-functions.php:99 comments.php:60
+#: inc/comment-functions.php:99
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+#: build/bbpress/form-user-edit.php:74 build/bbpress/form-user-edit.php:77
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:74 bbpress/form-user-edit.php:77
+#: build/bbpress/form-user-edit.php:74 build/bbpress/form-user-edit.php:77
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:82 build/bbpress/form-user-edit.php:82
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:90 bbpress/form-user-edit.php:93
+#: build/bbpress/form-user-edit.php:90 build/bbpress/form-user-edit.php:93
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:98 bbpress/form-user-login.php:17
+#: bbpress/form-user-register.php:23 build/bbpress/form-user-edit.php:98
+#: build/bbpress/form-user-login.php:17 build/bbpress/form-user-register.php:23
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:103 bbpress/form-user-register.php:28
+#: build/bbpress/form-user-edit.php:103 build/bbpress/form-user-register.php:28
+#: build/comments.php:59 build/inc/comment-functions.php:98 comments.php:59
+#: inc/comment-functions.php:98
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:115 build/bbpress/form-user-edit.php:115
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a "
+"href=\"%2$s\">Cancel</a>"
+msgstr ""
+
+#: bbpress/form-user-edit.php:124 build/bbpress/form-user-edit.php:124
+msgid "New Password"
+msgstr ""
+
+#: bbpress/form-user-edit.php:127 build/bbpress/form-user-edit.php:127
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: bbpress/form-user-edit.php:130 build/bbpress/form-user-edit.php:130
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-edit.php:133 build/bbpress/form-user-edit.php:133
+msgid ""
+"Your password should be at least ten characters long. Use upper and lower "
+"case letters, numbers, and symbols to make it even stronger."
+msgstr ""
+
+#: bbpress/form-user-edit.php:143 bbpress/form-user-edit.php:146
+#: build/bbpress/form-user-edit.php:143 build/bbpress/form-user-edit.php:146
+msgid "User Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:153 build/bbpress/form-user-edit.php:153
+msgid "Network Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:156 build/bbpress/form-user-edit.php:156
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:173 build/bbpress/form-user-edit.php:173
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:178 build/bbpress/form-user-edit.php:178
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:178 build/bbpress/form-user-edit.php:178
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:14 bbpress/form-user-login.php:35
+#: build/bbpress/form-user-login.php:14 build/bbpress/form-user-login.php:35
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:22 build/bbpress/form-user-login.php:22
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:28 build/bbpress/form-user-login.php:28
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:14 build/bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:18 build/bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:27 build/bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr ""
+
+#: bbpress/form-user-register.php:14 build/bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:17 build/bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:18 build/bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: bbpress/form-user-register.php:36 build/bbpress/form-user-register.php:36
+msgid "Register"
+msgstr ""
+
+#: bbpress/form-user-roles.php:13 build/bbpress/form-user-roles.php:13
+msgid "Blog Role"
+msgstr ""
+
+#: bbpress/form-user-roles.php:20 build/bbpress/form-user-roles.php:20
+msgid "Forum Role"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:16 build/bbpress/loop-search-forum.php:16
+msgid "Last updated %s"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:20 build/bbpress/loop-search-forum.php:20
+msgid "Forum: "
+msgstr ""
+
+#: bbpress/loop-search-reply.php:16 build/bbpress/loop-search-reply.php:16
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:18 build/bbpress/loop-search-topic.php:18
+msgid "Topic: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:25 build/bbpress/loop-search-topic.php:25
+msgid "in group forum "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:29 build/bbpress/loop-search-topic.php:29
+msgid "in forum "
+msgstr ""
+
+#: bbpress/loop-single-reply.php:52 build/bbpress/loop-single-reply.php:52
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:68 build/bbpress/loop-single-topic.php:68
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: bbpress/loop-topics.php:20 build/bbpress/loop-topics.php:20
+msgid "Voices"
+msgstr ""
+
+#: bbpress/loop-topics.php:21 build/bbpress/loop-topics.php:21
+#: build/template-homepage.php:104 build/template-homepage.php:116
+#: template-homepage.php:104 template-homepage.php:116
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-topics.php:22 build/bbpress/loop-topics.php:22
+msgid "Last Post"
+msgstr ""
+
+#: bbpress/user-details.php:29 build/bbpress/user-details.php:29
+msgid "%s's Profile"
+msgstr ""
+
+#: bbpress/user-details.php:29 bbpress/user-profile.php:15
+#: build/bbpress/user-details.php:29 build/bbpress/user-profile.php:15
+msgid "Profile"
+msgstr ""
+
+#: bbpress/user-details.php:35 build/bbpress/user-details.php:35
+msgid "%s's Topics Started"
+msgstr ""
+
+#: bbpress/user-details.php:35 build/bbpress/user-details.php:35
+msgid "Topics Started"
+msgstr ""
+
+#: bbpress/user-details.php:41 build/bbpress/user-details.php:41
+msgid "%s's Replies Created"
+msgstr ""
+
+#: bbpress/user-details.php:41 build/bbpress/user-details.php:41
+msgid "Replies Created"
+msgstr ""
+
+#: bbpress/user-details.php:48 build/bbpress/user-details.php:48
+msgid "%s's Favorites"
+msgstr ""
+
+#: bbpress/user-details.php:48 build/bbpress/user-details.php:48
+msgid "Favorites"
+msgstr ""
+
+#: bbpress/user-details.php:58 build/bbpress/user-details.php:58
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: bbpress/user-details.php:58 build/bbpress/user-details.php:58
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/user-details.php:65 build/bbpress/user-details.php:65
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: bbpress/user-details.php:65 build/bbpress/user-details.php:65
+#: build/inc/comment-functions.php:67 inc/comment-functions.php:67
+msgid "Edit"
+msgstr ""
+
+#: bbpress/user-favorites.php:15 build/bbpress/user-favorites.php:15
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:26 build/bbpress/user-favorites.php:26
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: bbpress/user-favorites.php:26 build/bbpress/user-favorites.php:26
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: bbpress/user-profile.php:24 build/bbpress/user-profile.php:24
+msgid "Forum Role: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:25 build/bbpress/user-profile.php:25
+msgid "Topics Started: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:26 build/bbpress/user-profile.php:26
+msgid "Replies Created: %s"
+msgstr ""
+
+#: bbpress/user-replies-created.php:15
+#: build/bbpress/user-replies-created.php:15
+msgid "Forum Replies Created"
+msgstr ""
+
+#: bbpress/user-replies-created.php:26
+#: build/bbpress/user-replies-created.php:26
+msgid "You have not replied to any topics."
+msgstr ""
+
+#: bbpress/user-replies-created.php:26
+#: build/bbpress/user-replies-created.php:26
+msgid "This user has not replied to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:19 build/bbpress/user-subscriptions.php:19
+msgid "Subscribed Forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:28 build/bbpress/user-subscriptions.php:28
+msgid "You are not currently subscribed to any forums."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:28 build/bbpress/user-subscriptions.php:28
+msgid "This user is not currently subscribed to any forums."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34 build/bbpress/user-subscriptions.php:34
+msgid "Subscribed Topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:45 build/bbpress/user-subscriptions.php:45
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-subscriptions.php:45 build/bbpress/user-subscriptions.php:45
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:15 build/bbpress/user-topics-created.php:15
+msgid "Forum Topics Started"
+msgstr ""
+
+#: bbpress/user-topics-created.php:26 build/bbpress/user-topics-created.php:26
+msgid "You have not created any topics."
+msgstr ""
+
+#: bbpress/user-topics-created.php:26 build/bbpress/user-topics-created.php:26
+msgid "This user has not created any topics."
+msgstr ""
+
+#: bbpress-functions.php:51 build/bbpress-functions.php:51
+msgid "bbPress Default"
+msgstr ""
+
+#: bbpress-functions.php:248 bbpress-functions.php:257
+#: build/bbpress-functions.php:248 build/bbpress-functions.php:257
+msgid "Something went wrong. Refresh your browser and try again."
+msgstr ""
+
+#: bbpress-functions.php:285 bbpress-functions.php:422
+#: build/bbpress-functions.php:285 build/bbpress-functions.php:422
+msgid "Subscriptions are no longer active."
+msgstr ""
+
+#: bbpress-functions.php:290 build/bbpress-functions.php:290
+msgid "Please login to subscribe to this forum."
+msgstr ""
+
+#: bbpress-functions.php:299 bbpress-functions.php:367
+#: bbpress-functions.php:436 build/bbpress-functions.php:299
+#: build/bbpress-functions.php:367 build/bbpress-functions.php:436
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: bbpress-functions.php:307 build/bbpress-functions.php:307
+msgid "The forum could not be found."
+msgstr ""
+
+#: bbpress-functions.php:312 bbpress-functions.php:380
+#: bbpress-functions.php:449 build/bbpress-functions.php:312
+#: build/bbpress-functions.php:380 build/bbpress-functions.php:449
+msgid "Are you sure you meant to do that?"
+msgstr ""
+
+#: bbpress-functions.php:320 bbpress-functions.php:388
+#: bbpress-functions.php:457 build/bbpress-functions.php:320
+#: build/bbpress-functions.php:388 build/bbpress-functions.php:457
+msgid "The request was unsuccessful. Please try again."
+msgstr ""
+
+#: bbpress-functions.php:353 build/bbpress-functions.php:353
+msgid "Favorites are no longer active."
+msgstr ""
+
+#: bbpress-functions.php:358 build/bbpress-functions.php:358
+msgid "Please login to make this topic a favorite."
+msgstr ""
+
+#: bbpress-functions.php:375 bbpress-functions.php:444
+#: build/bbpress-functions.php:375 build/bbpress-functions.php:444
+msgid "The topic could not be found."
+msgstr ""
+
+#: bbpress-functions.php:427 build/bbpress-functions.php:427
+msgid "Please login to subscribe to this topic."
+msgstr ""
+
+#: bbpress-functions.php:596 bbpress-functions.php:616
+#: build/bbpress-functions.php:596 build/bbpress-functions.php:616
+msgid "No Topics"
+msgstr ""
+
+#: build/comments.php:34 comments.php:34
+msgid "Comment navigation"
+msgstr ""
+
+#: build/comments.php:35 comments.php:35
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: build/comments.php:36 comments.php:36
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: build/comments.php:56 comments.php:56
+msgid "Cancel Reply"
+msgstr ""
+
+#: build/comments.php:62 comments.php:62
+msgid "Your Comment"
+msgstr ""
+
+#: build/content-none.php:8 content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: build/content-none.php:11 content-none.php:11
+msgid "We apologize for any inconvenience, please "
+msgstr ""
+
+#: build/content-none.php:11 content-none.php:11
+msgid "return to the home page"
+msgstr ""
+
+#: build/content-none.php:11 content-none.php:11
+msgid " or use the search form below."
+msgstr ""
+
+#: build/content-page.php:20 build/content.php:44
+#: build/hkb-templates/hkb-entry-content.php:7
+#: build/inc/ht-core/ht-display-functions.php:246 content-page.php:20
+#: content.php:44 hkb-templates/hkb-entry-content.php:7
+#: inc/ht-core/ht-display-functions.php:246
+msgid "Pages:"
+msgstr ""
+
+#: build/content.php:32 content.php:32
+msgid "Posted"
+msgstr ""
+
+#: build/content.php:33 content.php:33
+msgid "By"
+msgstr ""
+
+#: build/content.php:34 content.php:34
+msgid "Under"
+msgstr ""
+
+#: build/content.php:46 content.php:46
+msgid "Tagged:"
+msgstr ""
+
+#: build/footer.php:20 build/inc/theme-customizer.php:221 footer.php:20
+#: inc/theme-customizer.php:221
+msgid ""
+"&copy; Copyright HelpGuru. Powered by <a "
+"href=\"http://herothemes.com\">HeroThemes</a>."
+msgstr ""
+
+#: build/functions.php:38 functions.php:38
+msgid "Primary Navigation"
+msgstr ""
+
+#: build/header.php:34 header.php:34
+msgid "Menu"
+msgstr ""
+
+#: build/hkb-templates/hkb-article-meta-comments.php:4
+#: hkb-templates/hkb-article-meta-comments.php:4
+msgid "1 article comment"
+msgid_plural "%d article comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/hkb-templates/hkb-content-archive.php:20
+#: build/hkb-templates/hkb-subcategories.php:9
+#: build/inc/ht-core/ht-display-functions.php:82
+#: build/inc/ht-core/ht-display-functions.php:126
+#: hkb-templates/hkb-content-archive.php:20
+#: hkb-templates/hkb-subcategories.php:9
+#: inc/ht-core/ht-display-functions.php:82
+#: inc/ht-core/ht-display-functions.php:126
+msgid "View all posts in %s"
+msgstr ""
+
+#: build/hkb-templates/hkb-content-archive.php:21
+#: build/hkb-templates/hkb-subcategories.php:12
+#: build/hkb-templates/hkb-taxonomy-category.php:37
+#: hkb-templates/hkb-content-archive.php:21
+#: hkb-templates/hkb-subcategories.php:12
+#: hkb-templates/hkb-taxonomy-category.php:37
+msgid "1 Article"
+msgid_plural "%s Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/hkb-templates/hkb-content-archive.php:47
+#: hkb-templates/hkb-content-archive.php:47
+msgid "View all"
+msgstr ""
+
+#: build/hkb-templates/hkb-content-archive.php:61
+#: build/hkb-templates/hkb-single.php:68
+#: hkb-templates/hkb-content-archive.php:61 hkb-templates/hkb-single.php:68
+msgid "Uncategorized"
+msgstr ""
+
+#: build/hkb-templates/hkb-search-ajax.php:32
+#: hkb-templates/hkb-search-ajax.php:32
+msgid "Show all results"
+msgstr ""
+
+#: build/hkb-templates/hkb-search-ajax.php:36
+#: build/hkb-templates/hkb-search.php:34 hkb-templates/hkb-search-ajax.php:36
+#: hkb-templates/hkb-search.php:34
+msgid "No Results"
+msgstr ""
+
+#: build/hkb-templates/hkb-searchbox.php:12 hkb-templates/hkb-searchbox.php:12
+msgid "Search For"
+msgstr ""
+
+#: build/hkb-templates/hkb-single-attachments.php:15
+#: hkb-templates/hkb-single-attachments.php:15
+msgid "Article Attachments"
+msgstr ""
+
+#: build/hkb-templates/hkb-single-attachments.php:20
+#: hkb-templates/hkb-single-attachments.php:20
+msgid "Attachment"
+msgstr ""
+
+#: build/hkb-templates/hkb-single-author.php:13 build/single.php:23
+#: hkb-templates/hkb-single-author.php:13 single.php:23
+msgid "About The Author"
+msgstr ""
+
+#: build/hkb-templates/hkb-single-related.php:13
+#: hkb-templates/hkb-single-related.php:13
+msgid "Related Articles"
+msgstr ""
+
+#: build/hkb-templates/hkb-single-tags.php:10
+#: hkb-templates/hkb-single-tags.php:10
+msgid "Tagged: "
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:55 hkb-templates/hkb-single.php:55
+msgid "Created"
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:59 hkb-templates/hkb-single.php:59
+msgid "Author"
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:64 hkb-templates/hkb-single.php:64
+msgid "Category"
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:77 hkb-templates/hkb-single.php:77
+msgid "Comments"
+msgstr ""
+
+#: build/hkb-templates/hkb-single.php:78 hkb-templates/hkb-single.php:78
+msgid "%"
+msgstr ""
+
+#: build/hkb-templates/hkb-taxonomy-category.php:67
+#: build/hkb-templates/hkb-taxonomy-tag.php:36
+#: hkb-templates/hkb-taxonomy-category.php:67
+#: hkb-templates/hkb-taxonomy-tag.php:36
+msgid "Nothing else in this category."
+msgstr ""
+
+#: build/inc/comment-functions.php:28 inc/comment-functions.php:28
+msgid "Pingback:"
+msgstr ""
+
+#: build/inc/comment-functions.php:30 inc/comment-functions.php:30
+msgid "(Edit)"
+msgstr ""
+
+#: build/inc/comment-functions.php:45 inc/comment-functions.php:45
+msgid "%s"
+msgstr ""
+
+#: build/inc/comment-functions.php:56 inc/comment-functions.php:56
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: build/inc/comment-functions.php:105 inc/comment-functions.php:105
+msgid "Comment"
+msgstr ""
+
+#: build/inc/comment-functions.php:106 inc/comment-functions.php:106
+msgid ""
+"You must be <a href=\"%1$s\" title=\"Log in\">logged in</a> to post a "
+"comment."
+msgstr ""
+
+#: build/inc/comment-functions.php:107 inc/comment-functions.php:107
+msgid "Logged in as <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: build/inc/comment-functions.php:107 inc/comment-functions.php:107
+msgid "Log out of this account"
+msgstr ""
+
+#: build/inc/comment-functions.php:107 inc/comment-functions.php:107
+msgid "Log out &raquo;"
+msgstr ""
+
+#: build/inc/comment-functions.php:112 inc/comment-functions.php:112
+msgid "Leave A Comment?"
+msgstr ""
+
+#: build/inc/comment-functions.php:113 inc/comment-functions.php:113
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: build/inc/comment-functions.php:114 inc/comment-functions.php:114
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: build/inc/comment-functions.php:115 inc/comment-functions.php:115
+msgid "Post Comment"
+msgstr ""
+
+#: build/inc/ht-core/ht-display-functions.php:32
+#: inc/ht-core/ht-display-functions.php:32
+msgid "Home"
+msgstr ""
+
+#: build/inc/ht-core/ht-display-functions.php:169
+#: inc/ht-core/ht-display-functions.php:169
+msgid "Previous"
+msgstr ""
+
+#: build/inc/ht-core/ht-display-functions.php:170
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:156
+#: inc/ht-core/ht-display-functions.php:170
+msgid "Next"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:56 inc/ht-core/ht-post-formats.php:56
+msgid "Gallery Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:64 inc/ht-core/ht-post-formats.php:64
+msgid "Upload Images"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:65
+#: build/inc/ht-core/libraries/cmb/example-functions.php:243
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:267
+#: inc/ht-core/ht-post-formats.php:65
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:88 inc/ht-core/ht-post-formats.php:88
+msgid "Image Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:96 inc/ht-core/ht-post-formats.php:96
+msgid "Upload Image"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:97 inc/ht-core/ht-post-formats.php:97
+msgid "Select your image using the Featured Image box below"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:120
+#: inc/ht-core/ht-post-formats.php:120
+msgid "Link Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:128
+#: inc/ht-core/ht-post-formats.php:128
+msgid "Link URL"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:129
+#: inc/ht-core/ht-post-formats.php:129
+msgid "Enter the URL of the link"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:136
+#: inc/ht-core/ht-post-formats.php:136
+msgid "Link Title"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:137
+#: inc/ht-core/ht-post-formats.php:137
+msgid "Enter a title for the link"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:166
+#: inc/ht-core/ht-post-formats.php:166
+msgid "Quote Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:174
+#: inc/ht-core/ht-post-formats.php:174
+msgid "Quote"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:175
+#: inc/ht-core/ht-post-formats.php:175
+msgid "The quote text"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:180
+#: inc/ht-core/ht-post-formats.php:180
+msgid "Quote Author"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:181
+#: inc/ht-core/ht-post-formats.php:181
+msgid "The quote attribution"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:204
+#: inc/ht-core/ht-post-formats.php:204
+msgid "Status Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:212
+#: inc/ht-core/ht-post-formats.php:212
+msgid "Status Type"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:213
+#: inc/ht-core/ht-post-formats.php:213
+msgid "Select the type of status you wish to use"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:217
+#: build/inc/ht-core/ht-post-formats.php:265
+#: build/inc/ht-core/ht-post-formats.php:313
+#: build/inc/ht-core/libraries/cmb/example-functions.php:249
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:273
+#: inc/ht-core/ht-post-formats.php:217 inc/ht-core/ht-post-formats.php:265
+#: inc/ht-core/ht-post-formats.php:313
+msgid "oEmbed"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:218
+#: build/inc/ht-core/ht-post-formats.php:266
+#: build/inc/ht-core/ht-post-formats.php:314
+#: inc/ht-core/ht-post-formats.php:218 inc/ht-core/ht-post-formats.php:266
+#: inc/ht-core/ht-post-formats.php:314
+msgid "Custom"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:222
+#: inc/ht-core/ht-post-formats.php:222
+msgid "Status oEmbed"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:223
+#: build/inc/ht-core/ht-post-formats.php:277
+#: build/inc/ht-core/ht-post-formats.php:325
+#: build/inc/ht-core/libraries/cmb/example-functions.php:250
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:274
+#: inc/ht-core/ht-post-formats.php:223 inc/ht-core/ht-post-formats.php:277
+#: inc/ht-core/ht-post-formats.php:325
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:228
+#: inc/ht-core/ht-post-formats.php:228
+msgid "Custom Status"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:229
+#: build/inc/ht-core/libraries/cmb/example-functions.php:37
+#: build/inc/ht-core/libraries/cmb/example-functions.php:48
+#: build/inc/ht-core/libraries/cmb/example-functions.php:55
+#: build/inc/ht-core/libraries/cmb/example-functions.php:62
+#: build/inc/ht-core/libraries/cmb/example-functions.php:70
+#: build/inc/ht-core/libraries/cmb/example-functions.php:77
+#: build/inc/ht-core/libraries/cmb/example-functions.php:89
+#: build/inc/ht-core/libraries/cmb/example-functions.php:95
+#: build/inc/ht-core/libraries/cmb/example-functions.php:102
+#: build/inc/ht-core/libraries/cmb/example-functions.php:117
+#: build/inc/ht-core/libraries/cmb/example-functions.php:125
+#: build/inc/ht-core/libraries/cmb/example-functions.php:132
+#: build/inc/ht-core/libraries/cmb/example-functions.php:138
+#: build/inc/ht-core/libraries/cmb/example-functions.php:144
+#: build/inc/ht-core/libraries/cmb/example-functions.php:156
+#: build/inc/ht-core/libraries/cmb/example-functions.php:167
+#: build/inc/ht-core/libraries/cmb/example-functions.php:178
+#: build/inc/ht-core/libraries/cmb/example-functions.php:189
+#: build/inc/ht-core/libraries/cmb/example-functions.php:197
+#: build/inc/ht-core/libraries/cmb/example-functions.php:204
+#: build/inc/ht-core/libraries/cmb/example-functions.php:212
+#: build/inc/ht-core/libraries/cmb/example-functions.php:218
+#: build/inc/ht-core/libraries/cmb/example-functions.php:230
+#: build/inc/ht-core/libraries/cmb/example-functions.php:271
+#: build/inc/ht-core/libraries/cmb/example-functions.php:337
+#: build/inc/ht-core/libraries/cmb/example-functions.php:344
+#: build/inc/ht-core/libraries/cmb/example-functions.php:351
+#: build/inc/ht-core/libraries/cmb/example-functions.php:357
+#: build/inc/ht-core/libraries/cmb/example-functions.php:363
+#: build/inc/ht-core/libraries/cmb/example-functions.php:369
+#: build/inc/ht-core/libraries/cmb/example-functions.php:375
+#: build/inc/ht-core/libraries/cmb/example-functions.php:393
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:61
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:72
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:79
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:86
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:94
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:101
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:113
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:119
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:126
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:141
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:149
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:156
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:162
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:168
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:180
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:191
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:202
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:213
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:221
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:228
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:236
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:242
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:254
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:295
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:361
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:368
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:374
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:380
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:386
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:392
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:398
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:416
+#: inc/ht-core/ht-post-formats.php:229
+msgid "field description (optional)"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:252
+#: inc/ht-core/ht-post-formats.php:252
+msgid "Video Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:260
+#: inc/ht-core/ht-post-formats.php:260
+msgid "Video Type"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:261
+#: inc/ht-core/ht-post-formats.php:261
+msgid "Select the type of video you wish to use"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:270
+#: inc/ht-core/ht-post-formats.php:270
+msgid "Video Upload"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:271
+#: inc/ht-core/ht-post-formats.php:271
+msgid "Upload a video"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:276
+#: inc/ht-core/ht-post-formats.php:276
+msgid "Video oEmbed"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:300
+#: inc/ht-core/ht-post-formats.php:300
+msgid "Audio Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:308
+#: inc/ht-core/ht-post-formats.php:308
+msgid "Audio Type"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:309
+#: inc/ht-core/ht-post-formats.php:309
+msgid "Select the type of audio you wish to use"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:318
+#: inc/ht-core/ht-post-formats.php:318
+msgid "Audio Upload"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:319
+#: inc/ht-core/ht-post-formats.php:319
+msgid "Upload a audio file"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:324
+#: inc/ht-core/ht-post-formats.php:324
+msgid "Audio oEmbed"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:348
+#: inc/ht-core/ht-post-formats.php:348
+msgid "Chat Post Format"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:356
+#: inc/ht-core/ht-post-formats.php:356
+msgid "Chat Transcript"
+msgstr ""
+
+#: build/inc/ht-core/ht-post-formats.php:357
+#: inc/ht-core/ht-post-formats.php:357
+msgid "The transcript of the chat"
+msgstr ""
+
+#: build/inc/ht-core/ht-responsive-images.php:59
+#: inc/ht-core/ht-responsive-images.php:59
+msgid "Post Large"
+msgstr ""
+
+#: build/inc/ht-core/ht-responsive-images.php:60
+#: inc/ht-core/ht-responsive-images.php:60
+msgid "Post Mid"
+msgstr ""
+
+#: build/inc/ht-core/ht-responsive-images.php:61
+#: inc/ht-core/ht-responsive-images.php:61
+msgid "Post Small"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:28
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:52
+msgid "Test Metabox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:36
+#: build/inc/ht-core/libraries/cmb/example-functions.php:270
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:60
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:294
+msgid "Test Text"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:47
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:71
+msgid "Test Text Small"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:54
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:78
+msgid "Test Text Medium"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:61
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:85
+msgid "Website URL"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:69
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:93
+msgid "Test Text Email"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:76
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:100
+msgid "Test Time"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:82
+#: build/inc/ht-core/libraries/cmb/example-functions.php:83
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:106
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:107
+msgid "Time zone"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:88
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:112
+msgid "Test Date Picker"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:94
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:118
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:101
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:125
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:116
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:140
+msgid "Test Money"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:124
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:148
+msgid "Test Color Picker"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:131
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:155
+msgid "Test Text Area"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:137
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:161
+msgid "Test Text Area Small"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:143
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:167
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:149
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:173
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:150
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:174
+msgid "This is a title description"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:155
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:179
+msgid "Test Select"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:160
+#: build/inc/ht-core/libraries/cmb/example-functions.php:171
+#: build/inc/ht-core/libraries/cmb/example-functions.php:182
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:184
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:195
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:206
+msgid "Option One"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:161
+#: build/inc/ht-core/libraries/cmb/example-functions.php:172
+#: build/inc/ht-core/libraries/cmb/example-functions.php:183
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:185
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:196
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:207
+msgid "Option Two"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:162
+#: build/inc/ht-core/libraries/cmb/example-functions.php:173
+#: build/inc/ht-core/libraries/cmb/example-functions.php:184
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:186
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:197
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:208
+msgid "Option Three"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:166
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:190
+msgid "Test Radio inline"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:177
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:201
+msgid "Test Radio"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:188
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:212
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:196
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:220
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:203
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:227
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:211
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:235
+msgid "Test Checkbox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:217
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:241
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:222
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:246
+msgid "Check One"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:223
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:247
+msgid "Check Two"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:224
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:248
+msgid "Check Three"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:229
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:253
+msgid "Test wysiwyg"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:236
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:260
+msgid "Test Image"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:237
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:261
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:242
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:266
+msgid "Multiple Files"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:262
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:286
+msgid "About Page Metabox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:283
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:307
+msgid "Repeating Field Group"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:289
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:313
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:291
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:315
+msgid "Entry {#}"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:292
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:316
+msgid "Add Another Entry"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:293
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:317
+msgid "Remove Entry"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:330
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:354
+msgid "User Profile Metabox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:336
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:360
+msgid "Extra Info"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:343
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:367
+msgid "Avatar"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:350
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:373
+msgid "Facebook URL"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:356
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:379
+msgid "Twitter URL"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:362
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:385
+msgid "Google+ URL"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:368
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:391
+msgid "Linkedin URL"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:374
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:397
+msgid "User Field"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:388
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:411
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/example-functions.php:392
+#: build/inc/ht-core/libraries/cmb2/example-functions.php:415
+msgid "Site Background Color"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_ajax.php:47
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Ajax.php:37
+msgid "Please Try Again"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_ajax.php:131
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Ajax.php:133
+msgid "Remove Embed"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_ajax.php:134
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Ajax.php:137
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_field.php:459
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Field.php:721
+msgid "Add Group"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_field.php:460
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Field.php:722
+msgid "Remove Group"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:250
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:288
+msgid "Add Row"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:306
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:706
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:768
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:347
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:798
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:878
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:173
+#: build/inc/ht-core/libraries/cmb2/tests/test-cmb-types.php:158
+#: build/inc/ht-core/libraries/cmb2/tests/test-cmb-types.php:166
+msgid "Remove"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:601
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:635
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:674
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:722
+msgid "No terms"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:674
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:728
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:766
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:823
+msgid "Add or Upload File"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:695
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:760
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:787
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:870
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:172
+msgid "Remove Image"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:706
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:768
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:798
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:878
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:174
+msgid "File:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:706
+#: build/inc/ht-core/libraries/cmb/helpers/cmb_Meta_Box_types.php:768
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:798
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Types.php:878
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:175
+msgid "Download"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:258
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:123
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:160
+msgid "Clear"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:259
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:124
+msgid "Default"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:260
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:125
+msgid "Select Color"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:261
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:126
+msgid "Current Color"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:288
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:176
+msgid "Select / Deselect All"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb/init.php:1179
+#: build/inc/ht-core/libraries/cmb2/includes/helper-functions.php:226
+msgid "Save"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/CMB2.php:113
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Field.php:743
+msgid "None"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_Field.php:744
+msgid "All"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:150
+msgid "mm/dd/yy"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:151
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:152
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:153
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:154
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:155
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:157
+msgid "Prev"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:158
+msgid "Today"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:159
+msgid "Done"
+msgstr ""
+
+#: build/inc/ht-core/libraries/cmb2/includes/CMB2_hookup.php:171
+msgid "Use this file"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:75
+msgid "Theme License Options"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:84
+msgid "License Key"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:88
+msgid "Enter your license key"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:94
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:103
+msgid "Activate License"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:98
+msgid "active"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:100
+msgid "Deactivate License"
+msgstr ""
+
+#: build/inc/ht-core/libraries/ht-theme-updates/ht-theme-updates.php:234
+msgid ""
+"From this page you will shortly be able enable automatic updates for your "
+"Hero Theme. While we are working on this feature, be sure to follow "
+"@HeroThemes on Twitter for news."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: build/inc/tgm-load-plugins.php:82 inc/tgm-load-plugins.php:82
+msgid "Install Required Plugins"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: build/inc/tgm-load-plugins.php:83 inc/tgm-load-plugins.php:83
+msgid "Install Plugins"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#: build/inc/tgm-load-plugins.php:84 inc/tgm-load-plugins.php:84
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+#: build/inc/tgm-load-plugins.php:85 inc/tgm-load-plugins.php:85
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:377
+#: build/inc/tgm-load-plugins.php:94 inc/tgm-load-plugins.php:94
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: build/inc/tgm-load-plugins.php:96 inc/tgm-load-plugins.php:96
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:920
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2626
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3252
+#: build/inc/tgm-load-plugins.php:97 inc/tgm-load-plugins.php:97
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1027
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2075
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2489
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2493
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2696
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2701
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2707
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3591
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3596
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3610
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3613
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: build/inc/ht-core/libraries/wpthumb/wpthumb.crop-from-position.php:51
+msgid "Crop Position"
+msgstr ""
+
+#: build/inc/ht-core/libraries/wpthumb/wpthumb.php:727
+msgid "WPThumb has detected a problem."
+msgstr ""
+
+#: build/inc/ht-core/libraries/wpthumb/wpthumb.php:727
+msgid "The directory <code>%s</code> is not writable."
+msgstr ""
+
+#: build/inc/ht-core/libraries/wpthumb/wpthumb.watermark.php:192
+msgid "Watermark"
+msgstr ""
+
+#: build/inc/meta-boxes.php:28 inc/meta-boxes.php:28
+msgid "Page Options"
+msgstr ""
+
+#: build/inc/meta-boxes.php:36 build/inc/theme-customizer.php:73
+#: inc/meta-boxes.php:36 inc/theme-customizer.php:73
+msgid "Sidebar Position"
+msgstr ""
+
+#: build/inc/meta-boxes.php:42 inc/meta-boxes.php:42
+msgid "Sidebar Right"
+msgstr ""
+
+#: build/inc/meta-boxes.php:43 inc/meta-boxes.php:43
+msgid "Sidebar Left"
+msgstr ""
+
+#: build/inc/meta-boxes.php:44 inc/meta-boxes.php:44
+msgid "Sidebar Off"
+msgstr ""
+
+#: build/inc/register-sidebars.php:12 inc/register-sidebars.php:12
+msgid "The deafult sidebar show on posts and pages"
+msgstr ""
+
+#: build/inc/register-sidebars.php:23 inc/register-sidebars.php:23
+msgid "BBPress Sidebar"
+msgstr ""
+
+#: build/inc/register-sidebars.php:34 inc/register-sidebars.php:34
+msgid "Knowledge Base Sidebar"
+msgstr ""
+
+#: build/inc/register-sidebars.php:45 inc/register-sidebars.php:45
+msgid "Widgets shown in the footer of the theme"
+msgstr ""
+
+#: build/inc/register-sidebars.php:56 inc/register-sidebars.php:56
+msgid "Widgets shown on the homepage"
+msgstr ""
+
+#: build/inc/template-tags.php:19 inc/template-tags.php:19
+msgid "<i class=\"fa fa-angle-left\"></i> Older posts"
+msgstr ""
+
+#: build/inc/template-tags.php:23 inc/template-tags.php:23
+msgid "Newer posts <i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: build/inc/template-tags.php:47 inc/template-tags.php:47
+msgid "Posted: <time datetime=\"%1$s\">%2$s</time>"
+msgstr ""
+
+#: build/inc/template-tags.php:51 inc/template-tags.php:51
+msgid " in "
+msgstr ""
+
+#: build/inc/template-tags.php:54 inc/template-tags.php:54
+msgid "<time datetime=\"%1$s\">%2$s</time>"
+msgstr ""
+
+#: build/inc/tgm-load-plugins.php:86 inc/tgm-load-plugins.php:86
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:87 inc/tgm-load-plugins.php:87
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:88 inc/tgm-load-plugins.php:88
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:89 inc/tgm-load-plugins.php:89
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:90 inc/tgm-load-plugins.php:90
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:91 inc/tgm-load-plugins.php:91
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:92 inc/tgm-load-plugins.php:92
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:93 inc/tgm-load-plugins.php:93
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:95 inc/tgm-load-plugins.php:95
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/tgm-load-plugins.php:98 inc/tgm-load-plugins.php:98
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""
+
+#: build/inc/theme-customizer.php:24 build/template-homepage.php:11
+#: inc/theme-customizer.php:24 template-homepage.php:11
+msgid "The self-service support theme"
+msgstr ""
+
+#: build/inc/theme-customizer.php:29 inc/theme-customizer.php:29
+msgid "Headline"
+msgstr ""
+
+#: build/inc/theme-customizer.php:36 build/template-homepage.php:12
+#: inc/theme-customizer.php:36 template-homepage.php:12
+msgid ""
+"A premium WordPress theme with integrated Knowledge Base, providing 24/7 "
+"community based support."
+msgstr ""
+
+#: build/inc/theme-customizer.php:41 build/inc/theme-customizer.php:195
+#: inc/theme-customizer.php:41 inc/theme-customizer.php:195
+msgid "Tagline"
+msgstr ""
+
+#: build/inc/theme-customizer.php:50 inc/theme-customizer.php:50
+msgid "Blog"
+msgstr ""
+
+#: build/inc/theme-customizer.php:57 build/page-header-posts.php:11
+#: inc/theme-customizer.php:57 page-header-posts.php:11
+msgid "Important news from the super support team."
+msgstr ""
+
+#: build/inc/theme-customizer.php:62 inc/theme-customizer.php:62
+msgid "Blog Tagline"
+msgstr ""
+
+#: build/inc/theme-customizer.php:85 build/inc/theme-customizer.php:92
+#: build/page-header-kb.php:4 build/template-homepage.php:91
+#: inc/theme-customizer.php:85 inc/theme-customizer.php:92 page-header-kb.php:4
+#: template-homepage.php:91
+msgid "Knowledge Base"
+msgstr ""
+
+#: build/inc/theme-customizer.php:97 inc/theme-customizer.php:97
+msgid "KB Title"
+msgstr ""
+
+#: build/inc/theme-customizer.php:104 build/inc/theme-customizer.php:109
+#: inc/theme-customizer.php:104 inc/theme-customizer.php:109
+msgid "KB Tagline"
+msgstr ""
+
+#: build/inc/theme-customizer.php:128 inc/theme-customizer.php:128
+msgid "BBPress"
+msgstr ""
+
+#: build/inc/theme-customizer.php:135 build/page-header-bbpress.php:4
+#: inc/theme-customizer.php:135 page-header-bbpress.php:4
+msgid "Community Forums"
+msgstr ""
+
+#: build/inc/theme-customizer.php:140 build/inc/theme-customizer.php:254
+#: inc/theme-customizer.php:140 inc/theme-customizer.php:254
+msgid "Forum Title"
+msgstr ""
+
+#: build/inc/theme-customizer.php:147 inc/theme-customizer.php:147
+msgid "Forum tagline"
+msgstr ""
+
+#: build/inc/theme-customizer.php:152 inc/theme-customizer.php:152
+msgid "BBPress integrated forums, perfect for staff to customer interaction."
+msgstr ""
+
+#: build/inc/theme-customizer.php:172 inc/theme-customizer.php:172
+msgid "Header"
+msgstr ""
+
+#: build/inc/theme-customizer.php:184 inc/theme-customizer.php:184
+msgid "Site Title"
+msgstr ""
+
+#: build/inc/theme-customizer.php:204 inc/theme-customizer.php:204
+msgid "Site Logo"
+msgstr ""
+
+#: build/inc/theme-customizer.php:214 inc/theme-customizer.php:214
+msgid "Footer"
+msgstr ""
+
+#: build/inc/theme-customizer.php:226 inc/theme-customizer.php:226
+msgid "Site Copyright"
+msgstr ""
+
+#: build/inc/theme-customizer.php:236 inc/theme-customizer.php:236
+msgid "Theme Styling"
+msgstr ""
+
+#: build/inc/theme-customizer.php:242 inc/theme-customizer.php:242
+msgid "Theme Width"
+msgstr ""
+
+#: build/inc/theme-customizer.php:267 inc/theme-customizer.php:267
+msgid "Site Max Width (px)"
+msgstr ""
+
+#: build/inc/theme-customizer.php:268 inc/theme-customizer.php:268
+msgid "This is the range control description."
+msgstr ""
+
+#: build/inc/theme-customizer.php:279 build/inc/theme-customizer.php:288
+#: inc/theme-customizer.php:279 inc/theme-customizer.php:288
+msgid "Background"
+msgstr ""
+
+#: build/inc/theme-customizer.php:280 inc/theme-customizer.php:280
+msgid "This section only applies when using the boxed layout."
+msgstr ""
+
+#: build/inc/theme-customizer.php:314 inc/theme-customizer.php:314
+msgid "Background Repeat"
+msgstr ""
+
+#: build/inc/theme-customizer.php:318 inc/theme-customizer.php:318
+msgid "No Repeat"
+msgstr ""
+
+#: build/inc/theme-customizer.php:319 inc/theme-customizer.php:319
+msgid "Tile"
+msgstr ""
+
+#: build/inc/theme-customizer.php:320 inc/theme-customizer.php:320
+msgid "Tile Horizontally"
+msgstr ""
+
+#: build/inc/theme-customizer.php:321 inc/theme-customizer.php:321
+msgid "Tile Vertically"
+msgstr ""
+
+#: build/inc/theme-customizer.php:332 inc/theme-customizer.php:332
+msgid "Background Position"
+msgstr ""
+
+#: build/inc/theme-customizer.php:336 inc/theme-customizer.php:336
+msgid "Left"
+msgstr ""
+
+#: build/inc/theme-customizer.php:337 inc/theme-customizer.php:337
+msgid "Center"
+msgstr ""
+
+#: build/inc/theme-customizer.php:338 inc/theme-customizer.php:338
+msgid "Right"
+msgstr ""
+
+#: build/inc/theme-customizer.php:349 inc/theme-customizer.php:349
+msgid "Background Attachment"
+msgstr ""
+
+#: build/inc/theme-customizer.php:353 inc/theme-customizer.php:353
+msgid "Fixed"
+msgstr ""
+
+#: build/inc/theme-customizer.php:354 inc/theme-customizer.php:354
+msgid "Scroll"
+msgstr ""
+
+#: build/inc/theme-customizer.php:366 inc/theme-customizer.php:366
+msgid "Background Color"
+msgstr ""
+
+#: build/inc/theme-customizer.php:373 build/inc/theme-customizer.php:388
+#: inc/theme-customizer.php:373 inc/theme-customizer.php:388
+msgid "Custom CSS"
+msgstr ""
+
+#: build/inc/theme-customizer.php:399 inc/theme-customizer.php:399
+msgid "Theme Colors"
+msgstr ""
+
+#: build/inc/theme-customizer.php:409 inc/theme-customizer.php:409
+msgid "Link Color"
+msgstr ""
+
+#: build/inc/theme-customizer.php:417 inc/theme-customizer.php:417
+msgid "Link Color (Hover)"
+msgstr ""
+
+#: build/inc/theme-customizer.php:425 inc/theme-customizer.php:425
+msgid "Header BG Color"
+msgstr ""
+
+#: build/inc/theme-customizer.php:433 inc/theme-customizer.php:433
+msgid "Header Font Color"
+msgstr ""
+
+#: build/inc/theme-customizer.php:441 inc/theme-customizer.php:441
+msgid "Page Header BG Color"
+msgstr ""
+
+#: build/inc/theme-customizer.php:449 inc/theme-customizer.php:449
+msgid "Page Header Font Color"
+msgstr ""
+
+#: build/page-forum-statistics.php:31 page-forum-statistics.php:31
+msgid "<p>Here are the statistics and popular topics of our forums.</p>"
+msgstr ""
+
+#: build/page-forum-statistics.php:43 page-forum-statistics.php:43
+msgid "Popular Topics"
+msgstr ""
+
+#: build/page-header-posts.php:21 page-header-posts.php:21
+msgid "Author: %s"
+msgstr ""
+
+#: build/page-header-posts.php:23 page-header-posts.php:23
+msgid "Day: %s"
+msgstr ""
+
+#: build/page-header-posts.php:25 page-header-posts.php:25
+msgid "Month: %s"
+msgstr ""
+
+#: build/page-header-posts.php:27 page-header-posts.php:27
+msgid "Year: %s"
+msgstr ""
+
+#: build/page-topic-tags.php:31 page-topic-tags.php:31
+msgid ""
+"<p>This is a collection of tags that are currently popular on our "
+"forums.</p>"
+msgstr ""
+
+#: build/taxonomy-topic-tag-edit.php:26 build/taxonomy-topic-tag.php:26
+#: taxonomy-topic-tag-edit.php:26 taxonomy-topic-tag.php:26
+msgid "Topic Tag: %s"
+msgstr ""
+
+#: build/template-homepage.php:92 template-homepage.php:92
+msgid "Articles"
+msgstr ""
+
+#: build/template-homepage.php:92 build/template-homepage.php:116
+#: template-homepage.php:92 template-homepage.php:116
+msgid "Categories"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "HelpGuru"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://herothemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>For updates:</strong> <a "
+"href=\"http://twitter.com/herothemes\">Follow me on twitter</a> &ndash; <a "
+"href=\"http://www.facebook.com/herothemes\">Join the Facebook Group</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "HeroThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://herothemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Create Topic"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Statistics"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Forums (Index)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (Newest)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topic Tags"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - Topics (No Replies)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Login"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Lost Password"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "bbPress - User Register"
+msgstr ""
+
+#: build/comments.php:22 comments.php:22
+msgctxt "comments title"
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/comment-functions.php:48 build/inc/template-tags.php:42
+#: inc/comment-functions.php:48 inc/template-tags.php:42
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:1214
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2435
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/inc/ht-core/libraries/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: build/inc/styles.php:107 inc/styles.php:107
+#. Translators: If there are characters in your language that are not supported
+#. by this font, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: build/page-header-posts.php:25 page-header-posts.php:25
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: build/page-header-posts.php:27 page-header-posts.php:27
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""

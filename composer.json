@@ -1,0 +1,10 @@
+{
+    "require": {
+        "rmccue/requests": ">=1.0",
+        "ezyang/htmlpurifier": "^4.8",
+        "aws/aws-sdk-php": "^3.36",
+        "robmorgan/phinx": "^0.9.1",
+        "google/apiclient": "^2.0",
+        "symfony/yaml": "3.3.10"
+    }
+}

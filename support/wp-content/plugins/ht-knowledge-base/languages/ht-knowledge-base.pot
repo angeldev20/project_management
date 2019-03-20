@@ -1,0 +1,1712 @@
+# Copyright (C) 2017 HeroThemes
+# This file is distributed under the same license as the HelpGuru Knowledge Base package.
+msgid ""
+msgstr ""
+"Project-Id-Version: HelpGuru Knowledge Base 3.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ht-knowledge-base\n"
+"POT-Creation-Date: 2017-10-02 12:53:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: widgets/widget-kb-articles.php:152
+msgid "0"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:420 widgets/widget-kb-articles.php:152
+msgid "1"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:421
+msgid "2"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:422
+msgid "3"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:423
+msgid "4"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:424
+msgid "5"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:425
+msgid "6"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:426
+msgid "7"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:427
+msgid "8"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:428
+msgid "9"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:429
+msgid "10"
+msgstr ""
+
+#: exits/ht-kb-exits.php:76
+msgid ""
+"HelpGuru Knowledge Base Exits table does not exist, please <a "
+"href=\"%s\">Deactivate</a> then re-Activate the HelpGuru Knowledge Base "
+"plugin"
+msgstr ""
+
+#: exits/php/ht-kb-exits-shortcodes.php:36 exits/php/widget-kb-exits.php:28
+#: hkb-templates/hkb-exit.php:14
+msgid "Not the solution you were looking for?"
+msgstr ""
+
+#: exits/php/ht-kb-exits-shortcodes.php:37 exits/php/widget-kb-exits.php:29
+msgid "Click the link below to submit a support ticket"
+msgstr ""
+
+#: exits/php/ht-kb-exits-shortcodes.php:38 exits/php/widget-kb-exits.php:30
+#: hkb-templates/hkb-exit.php:21
+msgid "Submit Ticket"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:20
+msgid "Knowledge Base Exit Point"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:23
+msgid ""
+"A widget for displaying an exit for the knowledge base (such as support "
+"ticket system)"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:123 php/ht-knowledge-base-settings.php:339
+#: widgets/widget-kb-articles.php:230 widgets/widget-kb-articles.php:260
+#: widgets/widget-kb-authors.php:218 widgets/widget-kb-search.php:100
+#: widgets/widget-kb-toc.php:129
+msgid "Title"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:128
+msgid "Text"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:133
+msgid "Button Text"
+msgstr ""
+
+#: exits/php/widget-kb-exits.php:138
+msgid "Link URL (leave blank for default Knowledge Base setting url)"
+msgstr ""
+
+#: hkb-templates/hkb-article-meta-comments.php:4
+msgid "1 article comment"
+msgid_plural "%d article comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hkb-templates/hkb-compat-search.php:26 hkb-templates/hkb-search-ajax.php:34
+msgid "No Results"
+msgstr ""
+
+#: hkb-templates/hkb-compat-taxonomy.php:30
+msgid "No articles in this category."
+msgstr ""
+
+#: hkb-templates/hkb-content-archive.php:20
+#: hkb-templates/hkb-subcategories.php:9 ht-knowledge-base.php:1973
+#: ht-knowledge-base.php:2019 ht-knowledge-base.php:2078
+#: ht-knowledge-base.php:2104
+msgid "View all posts in %s"
+msgstr ""
+
+#: hkb-templates/hkb-content-archive.php:21
+#: hkb-templates/hkb-subcategories.php:12
+msgid "1 Article"
+msgid_plural "%s Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hkb-templates/hkb-content-archive.php:47
+msgid "View all"
+msgstr ""
+
+#: hkb-templates/hkb-content-archive.php:59
+msgid "Uncategorized"
+msgstr ""
+
+#: hkb-templates/hkb-content-archive.php:78
+msgid "There are no published articles... yet"
+msgstr ""
+
+#: hkb-templates/hkb-entry-content.php:7
+msgid "Pages:"
+msgstr ""
+
+#: hkb-templates/hkb-exit.php:18
+msgid "You can submit a ticket in our help center"
+msgstr ""
+
+#: hkb-templates/hkb-search-ajax.php:30
+msgid "Show all results"
+msgstr ""
+
+#: hkb-templates/hkb-searchbox.php:10 widgets/widget-kb-search.php:62
+msgid "Search For"
+msgstr ""
+
+#: hkb-templates/hkb-searchbox.php:14 ht-knowledge-base.php:301
+#: php/ht-knowledge-base-settings.php:224
+msgid "Search"
+msgstr ""
+
+#: hkb-templates/hkb-single-attachments.php:13
+msgid "Article Attachments"
+msgstr ""
+
+#: hkb-templates/hkb-single-attachments.php:18
+msgid "Attachment"
+msgstr ""
+
+#: hkb-templates/hkb-single-author.php:11
+msgid "About The Author"
+msgstr ""
+
+#: hkb-templates/hkb-single-related.php:12
+msgid "Related Articles"
+msgstr ""
+
+#: hkb-templates/hkb-single-tags.php:8
+msgid "Tagged: "
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:20 hkb-templates/hkb-voting-form.php:21
+#: voting/ht-voting.php:216
+msgid "You must log in to vote"
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:27 voting/ht-voting.php:220
+msgid "Yes"
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:31 voting/ht-voting.php:221
+msgid "No"
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:38 voting/ht-voting.php:229
+msgid "Thanks for your feedback, add a comment here to help improve the article"
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:39 voting/ht-voting.php:230
+msgid "Send Feedback"
+msgstr ""
+
+#: hkb-templates/hkb-voting-form.php:42 voting/ht-voting.php:233
+#: voting/ht-voting.php:394
+msgid "Thanks for your feedback"
+msgstr ""
+
+#: hkb-templates/hkb-voting-single.php:8 voting/ht-voting.php:528
+msgid "Was this article helpful?"
+msgstr ""
+
+#: ht-knowledge-base.php:289 ht-knowledge-base.php:345
+#: ht-knowledge-base.php:611 ht-knowledge-base.php:738
+#: ht-knowledge-base.php:1411 ht-knowledge-base.php:1956
+#: ht-knowledge-base.php:1987 ht-knowledge-base.php:2009
+#: ht-knowledge-base.php:2036
+msgid "Knowledge Base"
+msgstr ""
+
+#: ht-knowledge-base.php:294 ht-knowledge-base.php:1424
+#: php/ht-knowledge-base-settings.php:221
+msgid "Article"
+msgstr ""
+
+#: ht-knowledge-base.php:295 ht-knowledge-base.php:296
+msgid "Add New"
+msgstr ""
+
+#: ht-knowledge-base.php:297
+msgid "Edit"
+msgstr ""
+
+#: ht-knowledge-base.php:298
+msgid "New"
+msgstr ""
+
+#: ht-knowledge-base.php:299 widgets/widget-kb-articles.php:240
+msgid "All"
+msgstr ""
+
+#: ht-knowledge-base.php:300
+msgid "View"
+msgstr ""
+
+#: ht-knowledge-base.php:302
+msgid "No %s found"
+msgstr ""
+
+#: ht-knowledge-base.php:303
+msgid "No %s found in trash"
+msgstr ""
+
+#: ht-knowledge-base.php:351
+msgid "Article Categories"
+msgstr ""
+
+#: ht-knowledge-base.php:352
+msgid "All Article Categories"
+msgstr ""
+
+#: ht-knowledge-base.php:353
+msgid "Parent Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:354
+msgid "Parent Article Category:"
+msgstr ""
+
+#: ht-knowledge-base.php:355
+msgid "New Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:356
+msgid "Add New Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:357
+msgid "Edit Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:358
+msgid "Update Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:359
+msgid "Separate Article Categories with commas"
+msgstr ""
+
+#: ht-knowledge-base.php:360
+msgid "Search Article Categories"
+msgstr ""
+
+#: ht-knowledge-base.php:361
+msgid "Add or remove categories"
+msgstr ""
+
+#: ht-knowledge-base.php:362
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ht-knowledge-base.php:394
+msgid "Knowledge Base Tag"
+msgstr ""
+
+#: ht-knowledge-base.php:400
+msgid "Article Tags"
+msgstr ""
+
+#: ht-knowledge-base.php:401
+msgid "All Tags"
+msgstr ""
+
+#: ht-knowledge-base.php:402
+msgid "Parent Tag"
+msgstr ""
+
+#: ht-knowledge-base.php:403
+msgid "Parent Tag:"
+msgstr ""
+
+#: ht-knowledge-base.php:404
+msgid "New Tag Name"
+msgstr ""
+
+#: ht-knowledge-base.php:405
+msgid "Add New Tag"
+msgstr ""
+
+#: ht-knowledge-base.php:406
+msgid "Edit Tag"
+msgstr ""
+
+#: ht-knowledge-base.php:407
+msgid "Update Tag"
+msgstr ""
+
+#: ht-knowledge-base.php:408
+msgid "Separate tags with commas"
+msgstr ""
+
+#: ht-knowledge-base.php:409
+msgid "Search tags"
+msgstr ""
+
+#: ht-knowledge-base.php:410
+msgid "Add or remove tags"
+msgstr ""
+
+#: ht-knowledge-base.php:411
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ht-knowledge-base.php:475
+msgid "HelpGuru is not active, you must use HelpGuru as the active or child theme. "
+msgstr ""
+
+#: ht-knowledge-base.php:477
+msgid "Please <a href=\"%s\">switch themes</a> now."
+msgstr ""
+
+#: ht-knowledge-base.php:479
+msgid "Please inform the website administrator of this issue."
+msgstr ""
+
+#: ht-knowledge-base.php:514
+msgid ""
+"You need upgrade your Knowledge Base database, <a "
+"href=\"%s\">Deactivate</a> then re-Activate the HelpGuru Knowledge Base "
+"plugin"
+msgstr ""
+
+#: ht-knowledge-base.php:743
+msgid "Untitled Article"
+msgstr ""
+
+#: ht-knowledge-base.php:1108
+msgid ""
+"The voting module is required to use voting features | <a "
+"href=\"%1$s\">Hide Notice</a>"
+msgstr ""
+
+#: ht-knowledge-base.php:1134
+msgid ""
+"The Knowledge Base Analytics module is active and is no longer required | "
+"Please <a href=\"%1$s\">Deactivate the  Analytics Plugin</a>"
+msgstr ""
+
+#: ht-knowledge-base.php:1163
+msgid ""
+"An old version of the Voting module was detected and deactivated, please "
+"remove the Voting plugin and ht-voting folder"
+msgstr ""
+
+#: ht-knowledge-base.php:1188 ht-knowledge-base.php:1223
+msgid "HelpGuru Knowledge Base Archive"
+msgstr ""
+
+#: ht-knowledge-base.php:1243
+msgid "Add to Menu"
+msgstr ""
+
+#: ht-knowledge-base.php:1678
+msgid "Knowledge Base Archive"
+msgstr ""
+
+#: ht-knowledge-base.php:1679
+msgid "Knowledge Base Archive - Used by the HelpGuru Knowledge Base, do not delete"
+msgstr ""
+
+#: ht-knowledge-base.php:1774
+msgid ""
+"This article has no knowledge base categories set, it will appear as "
+"uncategorized"
+msgstr ""
+
+#: ht-knowledge-base.php:1801
+msgid ""
+"It looks like you have no Knowledge Base articles, you can <a "
+"href=\"%s\">add new article now</a>, or install the demo content from the "
+"<a href=\"%s\">welcome screen</a>."
+msgstr ""
+
+#: ht-knowledge-base.php:1821 php/ht-knowledge-base-settings.php:45
+msgid "Settings"
+msgstr ""
+
+#: ht-knowledge-base.php:1840 php/ht-knowledge-base-sample-installer.php:73
+msgid "Getting Started"
+msgstr ""
+
+#: ht-knowledge-base.php:1841
+msgid "Support and Documentation"
+msgstr ""
+
+#: ht-knowledge-base.php:1951 ht-knowledge-base.php:1980
+#: ht-knowledge-base.php:2004 ht-knowledge-base.php:2031
+msgid "Home"
+msgstr ""
+
+#: ht-knowledge-base.php:1992
+msgid "Search Results"
+msgstr ""
+
+#: ht-knowledge-base.php:2371
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: ht-knowledge-base.php:2382
+msgid "..."
+msgstr ""
+
+#: php/ht-knowledge-base-article-helpers.php:50
+msgid "Most Helpful Article"
+msgstr ""
+
+#: php/ht-knowledge-base-article-helpers.php:101
+msgid "Most Viewed Article"
+msgstr ""
+
+#: php/ht-knowledge-base-article-helpers.php:146
+msgid "Most Helpful User"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:36
+msgid "Article Order"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:37
+#: php/ht-knowledge-base-article-ordering.php:73
+msgid "Article Ordering"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:77
+#: php/ht-knowledge-base-category-ordering.php:131
+msgid "Javascript must be enabled to use this page"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:86
+msgid "Category:"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:105
+msgid "No articles in this category"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:127
+#: php/ht-knowledge-base-category-ordering.php:166
+msgid "Save Order"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:159
+msgid "Article Order updated sucessfully"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:164
+msgid "Article Order cannot be updated"
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:188
+msgid ""
+"You must set the Knowledge Base <strong>Sort By</strong> to "
+"<strong>Custom</strong> to enable article ordering. "
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:189
+msgid ""
+"You can do this now from the <a href=\"%s\">Knowledge Base General Settings "
+"page</a>."
+msgstr ""
+
+#: php/ht-knowledge-base-article-ordering.php:202
+#: php/ht-knowledge-base-category-meta.php:113
+#: php/ht-knowledge-base-category-ordering.php:251
+msgid "Error saving orders"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:37
+#: php/ht-knowledge-base-category-meta.php:80
+msgid "Category Image"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:40
+msgid "attachment ID"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:41
+#: php/ht-knowledge-base-category-meta.php:84
+#: php/ht-knowledge-base-category-meta.php:118
+msgid "Choose or Upload an Image"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:42
+#: php/ht-knowledge-base-category-meta.php:85
+msgid "Remove Image"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:49
+#: php/ht-knowledge-base-category-meta.php:92
+msgid "Category Color"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:86
+msgid "This will be displayed in various places in the Knowledge Base"
+msgstr ""
+
+#: php/ht-knowledge-base-category-meta.php:119
+msgid "Use this image"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:80
+msgid "Order"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:106
+#: php/ht-knowledge-base-category-ordering.php:140
+msgid "Category Order"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:107
+msgid "Category Ordering"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:127
+msgid "Article Category Ordering"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:146
+msgid ""
+"Drag and drop the categories to re-order how they appear in the knowledge "
+"base archives"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:233
+msgid "Category Order updated sucessfully"
+msgstr ""
+
+#: php/ht-knowledge-base-category-ordering.php:238
+msgid "Category Order cannot be updated"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:43
+#: php/ht-knowledge-base-debug-info.php:62
+msgid "HelpGuru Knowledge Base Debug Info"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:44
+msgid "Debug"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:66
+msgid "Download Debug Info"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:108
+msgid "Debug info for %s"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:111
+msgid "WordPress Version"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:113
+msgid "PHP Version"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:115
+msgid "HelpGuru Knowledge Base Plugin Version"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:117
+msgid "Active Theme"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:117
+#: php/ht-knowledge-base-debug-info.php:120
+msgid "%1$s - version %2$s"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:120
+msgid "Parent Theme"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:122
+msgid "No parent theme detected"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:127
+msgid "Permalinks Settings"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:129
+msgid "Pretty Permalinks Disabled"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:132
+msgid "MB Support"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:134
+msgid "ht_kb CPT slug"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:136
+msgid "ht_kb_category taxonomy slug"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:138
+msgid "ht_kb_tag taxonomy slug"
+msgstr ""
+
+#: php/ht-knowledge-base-debug-info.php:144
+msgid "Active Plugins"
+msgstr ""
+
+#: php/ht-knowledge-base-edit-columns.php:58
+msgid "Article Views"
+msgstr ""
+
+#: php/ht-knowledge-base-edit-columns.php:61
+msgid "Attachment(s)"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:38
+#: php/ht-knowledge-base-settings.php:92
+msgid "Article Options"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:54
+msgid "Attachments"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:55
+msgid "Add attachments to this article"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:104
+msgid "Article Stats"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:116
+msgid "Views:"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:120
+msgid "Rating:"
+msgstr ""
+
+#: php/ht-knowledge-base-meta-boxes.php:124
+msgid "Attachments:"
+msgstr ""
+
+#: php/ht-knowledge-base-restrict-access.php:49
+msgid "Public"
+msgstr ""
+
+#: php/ht-knowledge-base-restrict-access.php:51
+msgid "Logged In"
+msgstr ""
+
+#: php/ht-knowledge-base-restrict-access.php:249
+msgid "This content is not available"
+msgstr ""
+
+#: php/ht-knowledge-base-restrict-access.php:255
+msgid "You must log in to view this article"
+msgstr ""
+
+#: php/ht-knowledge-base-restrict-access.php:315
+#: php/ht-knowledge-base-restrict-access.php:321
+msgid "Private article"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:54
+msgid "Knowldge Base Data Removed"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:62
+msgid "Knowldge Base Sample Data Added"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:77
+msgid "Account Management"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:81
+msgid "Copyright and Legal"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:85
+msgid "HelpGuru Knowledge Base Plugin"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:103
+msgid "tips"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:107
+msgid "installation"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:111
+msgid "contact"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:115
+msgid "support"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:119
+msgid "password"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:123
+msgid "avatar"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:127
+msgid "content"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:131
+msgid "location"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:135
+msgid "about"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:139
+msgid "kb"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:234
+msgid "<h1>Sample Content</h1>"
+msgstr ""
+
+#: php/ht-knowledge-base-sample-installer.php:235
+msgid "Sample content would go here"
+msgstr ""
+
+#: php/ht-knowledge-base-settings-helpers.php:214
+#: php/ht-knowledge-base-settings.php:119
+msgid "Search the Knowledge Base"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:44 php/ht-knowledge-base-settings.php:211
+msgid "HelpGuru Knowledge Base Settings"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:52
+msgid "General Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:54
+msgid "Breadcrumbs"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:57
+msgid "Sort By"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:61
+msgid "Sort Order"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:64
+msgid "Number of Articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:68
+msgid "Archive Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:70
+msgid "Knowledge Base Columns"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:73
+msgid "Display Category Article Count"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:76
+msgid "Number of Articles to Display in Home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:79
+msgid "Display Sub Categories"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:82
+msgid "Sub Category Depth"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:85
+msgid "Display Sub Category Articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:88
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:94
+msgid "Enable Comments"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:97
+msgid "Display Usefulness"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:100
+msgid "Display Views"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:103
+msgid "Display Comment Count"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:106
+msgid "Display Related Articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:110
+msgid "Search Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:112
+msgid "Live Search"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:115
+msgid "Search Focus"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:118
+msgid "Search Placeholder"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:121
+msgid "Search Result Excerpt"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:126
+msgid "Slugs Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:128
+msgid "Knowledge Base Article Slug"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:131
+msgid "Knowledge Base Category Slug"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:134
+msgid "Knowledge Base Tag Slug"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:139
+msgid "Custom Styles Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:140
+msgid "Custom Styles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:142
+msgid "Site-Wide Custom Styles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:147
+msgid "Article Feedback Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:148
+msgid "Enable Feedback"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:150
+msgid "Enable Anonymous"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:152
+msgid "Upvote Feedback"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:154
+msgid "Downvote Feedback"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:158
+msgid "Transfer Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:159
+msgid "Default Transfer URL"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:161
+msgid "Load in new window"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:166
+msgid "License and Update Options"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:167
+msgid "License Key"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:195
+msgid "Slug cannot be the same as another HelpGuru Knowledge Base slug"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:196
+msgid "Slug cannot be a reserved WordPress term"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:197
+msgid ""
+"Slug cannot be the same as an existing post or page, please removed post "
+"with this slug first"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:215
+msgid "General"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:218
+msgid "Archive"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:227
+msgid "Slugs"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:230
+msgid "Custom Style"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:233
+msgid "Article Feedback"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:236
+msgid "Transfers"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:239
+msgid "License and Updates"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:327
+msgid "Display breadcrumbs in knowledge base"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:338 voting/php/ht-voting-backend.php:95
+#: widgets/widget-kb-articles.php:259
+msgid "Date"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:340
+msgid "Comment Count"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:341 widgets/widget-kb-articles.php:262
+msgid "Random"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:342 widgets/widget-kb-articles.php:263
+msgid "Modified"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:343 widgets/widget-kb-articles.php:264
+msgid "Popular"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:344 widgets/widget-kb-articles.php:265
+msgid "Helpful"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:345
+msgid "Custom"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:347
+msgid "Sort order for display of knowledge base articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:357
+msgid "Ascending"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:358
+msgid "Decending"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:360
+msgid "Sort direction for display of knowledge base articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:370
+msgid "Must be a valid number between 0 and 100"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:371
+msgid "Number of articles to display for each category or tag from taxonomy archive"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:393
+#: php/ht-knowledge-base-settings.php:454
+msgid "One"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:394
+#: php/ht-knowledge-base-settings.php:455
+msgid "Two"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:395
+msgid "Three"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:396
+msgid "Four"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:399
+msgid "Number of columns for the knowledge base home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:409
+msgid "Display the count of articles in categories"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:432
+msgid ""
+"Number of articles to display for each category in knowledge base home and "
+"each subcategory in parent taxonomy archive"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:442
+msgid "Display the sub-categories from knowledge base home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:453
+msgid "None"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:457
+msgid "Number of sub-categories to display in knowledge base home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:467
+msgid "Display the articles in sub-categories from knowledge base home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:477
+msgid "Hide empty categories in the knowledge base home"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:496
+msgid "Allow readers to comment on article"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:506
+msgid "Display the usefulness of article"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:516
+msgid "Display the view count of article"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:526
+msgid "Display the comments count of article"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:536
+msgid "Display related (articles that appear in the same category)"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:555
+msgid "Display knowledge base search box on knowledge base pages"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:565
+msgid "Set the mouse focus on the knowledge base search box when page loads"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:576
+msgid "Placeholder text for the knowledge base search box"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:586
+msgid "Display an excerpt of knowledge base articles in search results"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:605
+#: php/ht-knowledge-base-settings.php:617
+#: php/ht-knowledge-base-settings.php:628
+msgid "This slug is invalid or the same as another slug"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:606
+msgid "Defines the text slug for articles"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:618
+msgid "Defines the text slug for knowledge base categories"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:629
+msgid "Defines the text slug for knowledge base tags"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:649
+msgid ""
+"Important - use valid CSS only, you may want to <a href=\"%s\" "
+"target=\"_blank\">validate your styles</a> before saving"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:659
+msgid "Use these custom styles across entire site"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:678
+msgid "Allow readers to vote"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:687
+msgid "Allow readers to vote that are not logged in"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:696
+msgid "Collect feedback for upvotes"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:705
+msgid "Collect feedback for downvotes"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:724
+msgid "Default location that users will be transferred to if no URL specified"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:733
+msgid "Load transfer in a new window"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:743
+msgid ""
+"Updates of this plugin are controlled by the theme, there is nothing "
+"required in this section"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:750
+msgid ""
+"Please enter your license key below to enable support and updates, this is "
+"contained in your download email"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:754
+msgid ""
+"Unverified, Inactive or Expired - check you license status on your account "
+"at <a href=\"%s\" target=\"_blank\">HeroThemes</a>"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:761
+msgid "Valid and Active"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:784
+msgid "Managed by theme (Not required)"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:789
+msgid "Enter your HelpGuru Knowledge Base license key"
+msgstr ""
+
+#: php/ht-knowledge-base-settings.php:842
+msgid "Number of articles must be between 1-100"
+msgstr ""
+
+#: php/ht-knowledge-base-updater.php:72
+msgid ""
+"You have not entered a valid license key for automatic updates and support, "
+"be sure to do this in the <b>License and Updates</b> section now"
+msgstr ""
+
+#: php/ht-knowledge-base-updater.php:242
+msgid "Invalid key"
+msgstr ""
+
+#: php/ht-knowledge-base-views-dummy-data-creator.php:24
+msgid "Dummy Views"
+msgstr ""
+
+#: php/ht-knowledge-base-views-dummy-data-creator.php:36
+msgid "Add dummy views?"
+msgstr ""
+
+#: php/ht-knowledge-base-views-dummy-data-creator.php:36
+msgid "Add Views"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:27 php/ht-knowledge-base-welcome.php:28
+#: php/ht-knowledge-base-welcome.php:104
+msgid "Welcome to HelpGuru Knowledge Base"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:98
+msgid "and it looks like there are already a few articles"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:98
+msgid "though it does not have anything in it at the moment"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:107
+msgid ""
+"Welcome to HelpGuru Knowledge Base %s, thanks for choosing this plugin, "
+"which adds a feature rich knowledge base to your WordPress powered site."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:116
+msgid "Knowledge Base basics"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:119
+msgid ""
+"Your Knowledge Base is now available from <a href=\"%s\" "
+"target=\"_blank\">The Knowledge Base Archive</a>, %s."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:125
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Add a new article</a> to create your first "
+"Knowledge Base article. These work like other WordPress posts."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:130
+msgid ""
+"To get the most out of your Knowledge Base you should use several top-level "
+"<a href=\"%s\" target=\"_blank\">Knowledge Base categories</a> to organize "
+"your Knowledge Base."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:135
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Tags for the Knowledge Base</a> will help "
+"users find relevant and related content. "
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:140
+msgid ""
+"You can control most options for the Knowledge Base from the <a href=\"%s\" "
+"target=\"_blank\">Knowledge Base Settings</a> page"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:145
+msgid ""
+"The in-built live search allows users to quickly find answers to their "
+"queries right from any page on the Knowledge Base. It also searches "
+"Knowledge Base categories and Knowledge Base tags."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:150
+msgid "Sample Content"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:151
+msgid ""
+"Install sample articles to get an instant Knowledge Base, meaning you can "
+"experiment with example articles, categories and tags to get up and running "
+"quickly."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:153
+msgid "Sample installed"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:155
+msgid "Set Up Sample Knowledge Base"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:158
+msgid "Delete All Knowledge Base Data"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:163
+msgid "The Knowledge Base is just the start"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:164
+msgid ""
+"Visit <a href=\"%s\" target=\"_blank\">HeroThemes</a>, or signup with the "
+"form below for more tips, guides and addons to harness the power of your "
+"new Knowledge Base"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:177
+msgid "indicates required"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:179
+msgid "Email Address"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:192
+msgid "Subscribe"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:201
+msgid "Support and Updates"
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:203
+msgid ""
+"Your license is up-to-date and valid, be sure to visit the <a href=\"%s\" "
+"target=\"_blank\">update page</a> regularly to keep your Knowledge Base "
+"plugin updated."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:205
+msgid ""
+"Your theme manages the updates and licensing for this plugin, be sure to "
+"visit the <a href=\"%s\" target=\"_blank\">update page</a> regularly to "
+"keep your theme updated."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:207
+msgid ""
+"<b>Important:</b> To enable automatic updates and support for this site, be "
+"sure to enter your license key on the <a href=\"%s\" "
+"target=\"_blank\">license and updates tab</a> of your Knowledge Base "
+"settings, this ensures you have the latest and supported version of the "
+"plugin."
+msgstr ""
+
+#: php/ht-knowledge-base-welcome.php:209
+msgid ""
+"If you need any assistance in setting up your Knowledge Base, be sure to "
+"check out the documentation and knowledge base at the <a href=\"%s\" "
+"target=\"_blank\">HelpGuru Theme Documentation Page</a>."
+msgstr ""
+
+#: sl-updater/EDD_SL_Plugin_Updater.php:177
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: sl-updater/EDD_SL_Plugin_Updater.php:184
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: sl-updater/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: sl-updater/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: tax-radio-buttons/hkb-category-radio-select.php:45
+msgid "Article Category"
+msgstr ""
+
+#: tax-radio-buttons/hkb-category-radio-select.php:72
+msgid "Most Used"
+msgstr ""
+
+#: voting/ht-voting.php:309
+msgid "You must be logged in to vote on this"
+msgstr ""
+
+#: voting/ht-voting.php:415
+msgid "Cannot retrieve vote"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:31
+msgid "Are you sure you want to delete this vote?"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:37
+msgid "Votes and Feedback"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:94 widgets/widget-kb-authors.php:165
+msgid "Rating"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:96
+msgid "User/IP"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:97
+msgid "Comments"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:98
+msgid "Options"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:130
+msgid "Delete This Vote"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:132
+msgid "Up"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:134
+msgid "Down"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:211
+msgid ""
+"Are you sure you want to recalculate the article usefulness, this will "
+"override any manual setting?"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:211
+msgid "Recalculate Usefulness"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:212
+msgid "Are you sure you want to delete all votes?"
+msgstr ""
+
+#: voting/php/ht-voting-backend.php:212
+msgid "Delete All Votes"
+msgstr ""
+
+#: voting/php/ht-voting-dummy-data-creator.php:25
+msgid "Dummy Votes"
+msgstr ""
+
+#: voting/php/ht-voting-dummy-data-creator.php:37
+msgid "Add dummy votes?"
+msgstr ""
+
+#: voting/php/ht-voting-dummy-data-creator.php:37
+msgid "Add Votes"
+msgstr ""
+
+#: voting/php/ht-voting-meta-boxes.php:31
+msgid "Voting Options"
+msgstr ""
+
+#: voting/php/ht-voting-meta-boxes.php:49
+msgid "Disable Voting"
+msgstr ""
+
+#: voting/php/ht-voting-meta-boxes.php:50
+msgid "Disable voting on this article"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:18 widgets/widget-kb-articles.php:25
+msgid "Knowledge Base Articles"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:21
+msgid "A widget for displaying Knowledge Base articles"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:84
+msgid "%1$s ago"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:152
+msgid "%"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:237
+msgid "Category"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:249
+msgid "Number of posts to show"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:256 widgets/widget-kb-authors.php:232
+#: widgets/widget-kb-categories.php:187
+msgid "Sort by"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:261
+msgid "Number of comments"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:275 widgets/widget-kb-authors.php:246
+msgid "Reverse sort order (ascending)"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:281
+msgid "Show number of comments"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:287
+msgid "Show article rating"
+msgstr ""
+
+#: widgets/widget-kb-articles.php:294
+msgid "Show post thumbnail"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:17 widgets/widget-kb-authors.php:24
+msgid "Knowledge Base Authors"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:20
+msgid "A widget for displaying top Knowledge Base authors"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:158
+msgid "Articles Authored:"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:225
+msgid "Number of authors to show"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:235
+msgid "Articles Authored"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:236
+msgid "Most Helpful"
+msgstr ""
+
+#: widgets/widget-kb-authors.php:253
+msgid "Show user avatar"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:17 widgets/widget-kb-categories.php:24
+msgid "Knowledge Base Categories"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:20
+msgid "A widget for displaying Knowledge Base categories"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:168
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:173
+msgid "Number of categories to show"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:180
+msgid "Category depth to show"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:190
+msgid "Name"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:191
+msgid "Number of articles"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:192
+msgid "Slug"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:193
+msgid "ID"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:194
+msgid "Custom (TL only)"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:204
+msgid "Reverse sort order"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:213
+msgid "Hide empty categories"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:222
+msgid "Only top level categories"
+msgstr ""
+
+#: widgets/widget-kb-categories.php:231
+msgid "Display article count"
+msgstr ""
+
+#: widgets/widget-kb-search.php:18 widgets/widget-kb-search.php:25
+msgid "Knowledge Base Search"
+msgstr ""
+
+#: widgets/widget-kb-search.php:21
+msgid "A widget for displaying Knowledge Base Search"
+msgstr ""
+
+#: widgets/widget-kb-toc.php:21
+msgid "Knowledge Base Table of Contents"
+msgstr ""
+
+#: widgets/widget-kb-toc.php:24
+msgid "A widget for displaying a Table of Contents on Knowledge Base "
+msgstr ""
+
+#: widgets/widget-kb-toc.php:28
+msgid "Contents"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "HelpGuru Knowledge Base"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://herothemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Knowledge Base plugin for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "HeroThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://herothemes.com/"
+msgstr ""
+
+#: ht-knowledge-base.php:287
+msgctxt "Post Type Singular Name"
+msgid "Article"
+msgstr ""
+
+#: ht-knowledge-base.php:288
+msgctxt "Post Type Plural Name"
+msgid "Articles"
+msgstr ""
+
+#: ht-knowledge-base.php:349
+msgctxt "Taxonomy General Name"
+msgid "Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:398
+msgctxt "Taxonomy General Name"
+msgid "Article Tags"
+msgstr ""
+
+#: ht-knowledge-base.php:350
+msgctxt "Taxonomy Singular Name"
+msgid "Article Category"
+msgstr ""
+
+#: ht-knowledge-base.php:399
+msgctxt "Taxonomy Singular Name"
+msgid "Article Tag"
+msgstr ""

@@ -1,0 +1,69 @@
+<svg id="bl_037_testing_start-up_rocket_space_ship_fly_laptop_computer" data-name="bl 037, testing, start-up, rocket, space ship, fly, laptop, computer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.207 77.207">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6, .cls-7 {
+        fill: rgba(255,253,253,0);
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ed5564;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #47bf9b;
+      }
+
+      .cls-3, .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: #c9c9c9;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: #1dbce8;
+      }
+    </style>
+  </defs>
+  <path id="Path_136" data-name="Path 136" class="cls-1" d="M35.349,46.778V12.445L28.81,1H25.54L19,12.445V46.778Z" transform="translate(11.429)"/>
+  <path id="Path_137" data-name="Path 137" class="cls-1" d="M22.81,23H17.9L13,27.9V39.349h3.27l6.54-6.54Z" transform="translate(7.619 13.969)"/>
+  <path id="Path_138" data-name="Path 138" class="cls-1" d="M29,23h4.9l4.9,4.9V39.349H35.54L29,32.81Z" transform="translate(17.778 13.969)"/>
+  <line id="Line_51" data-name="Line 51" class="cls-2" y2="3.27" transform="translate(32.064 58.223)"/>
+  <line id="Line_52" data-name="Line 52" class="cls-2" y2="3.27" transform="translate(32.064 64.762)"/>
+  <line id="Line_53" data-name="Line 53" class="cls-2" y2="3.27" transform="translate(45.143 58.223)"/>
+  <line id="Line_54" data-name="Line 54" class="cls-2" y2="3.27" transform="translate(45.143 64.762)"/>
+  <line id="Line_55" data-name="Line 55" class="cls-2" y2="3.27" transform="translate(38.604 64.762)"/>
+  <line id="Line_56" data-name="Line 56" class="cls-2" y2="3.27" transform="translate(48.413 54.953)"/>
+  <line id="Line_57" data-name="Line 57" class="cls-2" y2="3.27" transform="translate(48.413 61.493)"/>
+  <line id="Line_58" data-name="Line 58" class="cls-2" y2="3.27" transform="translate(28.794 54.953)"/>
+  <line id="Line_59" data-name="Line 59" class="cls-2" y2="3.27" transform="translate(28.794 61.493)"/>
+  <g id="Group_60" data-name="Group 60" transform="translate(10.81 58.223)">
+    <path id="Path_139" data-name="Path 139" class="cls-3" d="M7.778,44.2h0a5.086,5.086,0,0,1,5.086-5.086h0A5.086,5.086,0,0,1,17.951,44.2h0" transform="translate(-6.506 -34.025)"/>
+    <path id="Path_140" data-name="Path 140" class="cls-3" d="M7,36H7a5.086,5.086,0,0,1,5.086,5.086h0" transform="translate(-7 -36)"/>
+  </g>
+  <line id="Line_60" data-name="Line 60" class="cls-2" y2="3.27" transform="translate(38.604 58.223)"/>
+  <line id="Line_61" data-name="Line 61" class="cls-2" y2="3.27" transform="translate(38.604 51.683)"/>
+  <line id="Line_62" data-name="Line 62" class="cls-2" y2="3.27" transform="translate(32.064 51.683)"/>
+  <line id="Line_63" data-name="Line 63" class="cls-2" y2="3.27" transform="translate(45.143 51.683)"/>
+  <line id="Line_64" data-name="Line 64" class="cls-4" x2="6.54" transform="translate(35.334 40.238)"/>
+  <line id="Line_65" data-name="Line 65" class="cls-5" y1="3.27" transform="translate(38.604 25.524)"/>
+  <line id="Line_66" data-name="Line 66" class="cls-5" y1="3.27" transform="translate(38.604 18.984)"/>
+  <line id="Line_67" data-name="Line 67" class="cls-5" y1="3.27" transform="translate(38.604 12.445)"/>
+  <path id="Path_141" data-name="Path 141" class="cls-6" d="M1,43v3.27l3.27,3.27H72.937l3.27-3.27V43Z" transform="translate(0 26.667)"/>
+  <path id="Path_142" data-name="Path 142" class="cls-7" d="M51.619,60.778V18.27A3.27,3.27,0,0,0,48.349,15H32" transform="translate(19.683 8.889)"/>
+  <path id="Path_143" data-name="Path 143" class="cls-7" d="M4,60.778V18.27A3.27,3.27,0,0,1,7.27,15H23.619" transform="translate(1.905 8.889)"/>
+  <g id="Group_61" data-name="Group 61" transform="translate(54.953 58.223)">
+    <path id="Path_144" data-name="Path 144" class="cls-3" d="M44.173,44.2h0a5.086,5.086,0,0,0-5.086-5.086h0A5.086,5.086,0,0,0,34,44.2h0" transform="translate(-34 -34.025)"/>
+    <path id="Path_145" data-name="Path 145" class="cls-3" d="M42.975,36h0a5.086,5.086,0,0,0-5.086,5.086h0" transform="translate(-31.531 -36)"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_helpguru">
+            <key name="ht_hp_headline" />   
+            <key name="ht_hp_tagline" />
+            <key name="ht_kb_title" />   
+            <key name="ht_kb_tagline" />
+        </key>
+    </admin-texts>
+</wpml-config>
